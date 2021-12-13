@@ -1,0 +1,3896 @@
+﻿GeneID,StructureID,Marker
+ABCG4,LMANco,-
+ABCG4,Ovco,-
+ABCG4,DLMco,-
+ABCG4,Rt,-
+ABCG4,Hb,-
+ABCG4,L2a,-
+ABCG4,APH,-
+ABCG4,Esh,-
+ABCG4,Alat,-
+ABCG4,HVC,-
+ABCG4,RA,-
+ABCG4,MSt,-
+ADCYAP1,RA,-
+ADCYAP1,HVC,-
+ADCYAP1,St,-
+ADGRB3,St,-
+ADGRB3,L2a,-
+ADRA1D,E,-
+ADRA1D,RA,-
+ADRA1D,HVC,-
+ADRA2A,MLd,-
+AKR1D1,L2a,-
+AKR1D1,A,-
+AKR1D1,HVC,-
+AQP1,APH,-
+AQP1,pHVC,-
+AQP1,UnkPallium,-
+AQP1,Periventricular region,-
+AQP1,HVC,-
+AQP1,A,-
+AQP1,CDLCo,-
+ARHGAP32,APH,-
+ARHGAP32,Ecosh,-
+ARHGAP32,CDLco,-
+ARHGDIB,LMANcosh,-
+ARHGDIB,UnkHypothalamus,-
+ARHGDIB,DLMco,-
+ARHGDIB,Periventricular region,-
+ARHGDIB,Alat,-
+ARHGDIB,MLd,-
+ARHGDIB,A,-
+ARHGDIB,UnkPallium,-
+ARHGDIB,RA,-
+ARHGDIB,Bas,-
+ARHGDIB,Rt,-
+ARHGDIB,HVC,-
+ARPC5,L2a,-
+ARPC5,L2b,-
+ARPC5,E,-
+ARPC5,HVC,-
+ARPC5,Bas,-
+ARPC5,RA,-
+ATP2A3,DLMco,-
+ATP2A3,St,-
+ATP2A3,LMANsh,-
+ATP2A3,E,-
+ATP2A3,Alat,-
+ATP2A3,Bas,-
+ATP2A3,MLd,-
+ATP2A3,RA,-
+B3GAT2,Eco,-
+B3GNT2,L2b,-
+B3GNT2,L2a,-
+B3GNT2,APH,-
+B3GNT2,E,-
+B3GNT2,RA,-
+B3GNT2,Bas,-
+B3GNT2,HVC,-
+BAIAP2,SM,-
+BAIAP2,RA,-
+BAIAP2,HVC,-
+BAIAP2,L2a,-
+BAIAP2,A,-
+BAIAP2,LMANcosh,-
+BAIAP2,Bas,-
+BAIAP2,L2b,-
+BAIAP2,CDLco,-
+BTBD10,RA,-
+C11ORF87,X,-
+C11ORF87,A,-
+C11ORF87,gp,-
+C1QL3,HVC,-
+C1QL3,RA,-
+CABP7,LMANcosh,-
+CABP7,L2a,-
+CABP7,Bas,-
+CACNA1D,L2a,-
+CACNA1D,LMANcosh,-
+CACNA1E,L2a,-
+CACNA1E,HPdc,-
+CACNA1E,E,-
+CACNA1E,Alat,-
+CACNA1E,Bas,-
+CACNA1E,A,-
+CACNA1E,CDLco,-
+CACNA1H,RA,-
+CACNA2D1,LMANcosh,-
+CACNA2D1,L2a,-
+CACNA2D1,E,-
+CACNA2D1,CDLco,-
+CACNA2D1,Bas,-
+CACNA2D1,A,-
+CACNA2D1,HVC,-
+CACNA2D1,APH,-
+CACNB2,L2a,-
+CACNB2,LMANco,-
+CACNB2,Alat,-
+CACNB2,E,-
+CACNB2,Bas,-
+CACNB2,RA,-
+CACNB2,HVC,-
+CACNB4,GP,-
+CACNB4,Bas,-
+CACNB4,A,-
+CACNG3,L2a,-
+CACNG3,LMANco,-
+CACNG3,X,-
+CACNG3,E,-
+CACNG3,Alat,-
+CACNG3,GP,-
+CACNG3,Bas,-
+CACNG3,CDLco,-
+CACNG5,St,-
+CACNG5,HF,-
+CACNG5,HVC,-
+CACNG5,CDL,-
+CACNG5,Bas,-
+CACNG5,A,-
+CADPS2,DLMcosh,-
+CALB2,Cb pcl,-
+CALB2,DLP,-
+CALB2,SpL,-
+CALB2,Pt,-
+CALB2,Rt,-
+CALB2,Ipc,-
+CAMK2A,LMANco,-
+CAMK2A,L2a,-
+CAMK2A,Esh,-
+CAMK2A,E,-
+CAMK2A,RA,-
+CAMK2A,Bas,-
+CAMK2D,L2a,-
+CAMK4,LMANcosh,-
+CAMKK1,HF,-
+CAMKK1,L2a,-
+CAMKK1,Periventricular region,-
+CAMKK1,A,-
+CAMKK1,L2b,-
+CAMKK1,Bas,-
+CAMKK1,Rt,-
+CAMKK1,CDLco,-
+CAMTA1,CDLco,-
+CBLN2,DMA,-
+CBLN2,DMA,-
+CBLN2,DLMsh,-
+CBLN2,MLd,-
+CBLN2,CDLco,-
+CBLN4,Periventricular region,-
+CBLN4,MLd,-
+CCK,DMA,-
+CCK,DLMcosh,-
+CCK,LMANcosh,-
+CDH4,MSt,-
+CDH4,Ovco,-
+CDH4,DLM,-
+CDH4,L2a,-
+CDH4,HVC,-
+CDH4,E,-
+CDH8,RA,-
+CDH9,HF,-
+CDH9,E,-
+CDH9,LMANcosh,-
+CHGB,CDLco,-
+CHGB,L2a,-
+CHGB,St,-
+CHGB,MLd,-
+CHGB,Ipc,-
+CHGB,E,-
+CHRM4,E,-
+CHRM4,RA,-
+CHRNA4,Ipc,-
+CHRNA4,RA,-
+CLMN,L2a,-
+CNTN4,Ac,-
+CNTN4,HVC,-
+CNTN4,L2b,-
+CNTN4,M,-
+CNTN4,Ovco,-
+CNTN4,DLMcosh,-
+CNTN4,L2a,-
+CNTN4,HF,-
+CNTN4,Ad,-
+CNTN5,RA,-
+CPE,LMAN,-
+CPNE2,DLMco,-
+CPNE2,Ovco,-
+CPNE2,RA,-
+CPNE2,HVC,-
+CPNE2,Alat,-
+CPNE8,UnkHypothalamus,-
+CPNE8,GP,-
+CRHBP,St,-
+CRHR1,RA,-
+CRHR1,A,-
+CRHR2,APH,-
+CRHR2,Olfactory bulb,-
+CRHR2,L2a,-
+CRHR2,E,-
+CRHR2,RA,-
+DACH1,HVC,-
+DACH1,M,-
+DACH1,Bas,-
+DACH1,A,-
+DCX,L2a,-
+DCX,HVC,-
+DCX,E,-
+DHCR24,Alat,-
+DOK4,RA,-
+DOK5,L2a,-
+DPP6,RA,-
+DRD7,CM,-
+DRD7,A,-
+ENO1,St,-
+ENO1,UnkThalamus,-
+EPB41L3,St,-
+EPHA4,A,-
+UNKNOWN067,UnkMedulla,-
+UNKNOWN067,L2a,-
+UNKNOWN067,LMANco,-
+UNKNOWN067,St,-
+UNKNOWN067,NCL,-
+UNKNOWN067,E,-
+UNKNOWN067,A,-
+UNKNOWN067,Bas,-
+UNKNOWN067,HVC,-
+ETV1,DG,-
+ETV1,Aros,-
+FAM163B,DLMco,-
+FAM163B,L2a,-
+FAM163B,L2b,-
+FAM163B,NCL,-
+FAM163B,LMANcosh,-
+FAM163B,St,-
+FAM163B,E,-
+FAM163B,Alat,-
+FAM163B,Bas,-
+FAM163B,RA,-
+FAM163B,HVC,-
+FAM163B,MLd,-
+FLRT2,CDLco,-
+FNBP1,L2a,-
+FNBP1,APH,-
+FNBP1,Hp,-
+FNBP1,Bas,-
+FNBP1,Eco,-
+FNBP1,A,-
+FNBP1,St,-
+FNDC9,E,-
+FOSL2,DG,-
+FOSL2,E,-
+FOXP1,LMAN,-
+FOXP1,Bas,-
+FOXP1,E,-
+GABBR2,L2a,-
+GABBR2,Pal,+
+GABRA3,UnkThalamus,-
+GABRB3,X,-
+GABRB3,RA,-
+GABRD,HF,-
+GABRD,DLMco,-
+GABRD,Ac,-
+GABRD,E,-
+GABRE,Bas,-
+GAD1,Ipc,-
+GAD2,Cb pcl,-
+GAP43,Rt,-
+GAP43,St,-
+GAP43,DLM,-
+GAP43,Ovco,-
+GAP43,Field L,-
+GAP43,APHd,-
+GAP43,CDLco,-
+GAP43,ICo,-
+GAP43,HA,-
+GAP43,RA,-
+GDA,L2a,-
+GDA,L2b,-
+GDA,RA,-
+GDA,Bas,-
+GPM6A,L2a,-
+GPM6A,LMANcosh,-
+GPM6A,RA,-
+GPM6A,DLMco,-
+GPM6A,Ovco,-
+GPM6A,X,-
+GRIA1,L2a,-
+GRIA1,GP,-
+GRIA1,HVC,-
+GRIA2,L2a,-
+GRIA3,Olfactory bulb,-
+GRIA3,L2a,-
+GRIA3,L2b,-
+GRIA3,HVC,-
+GRIA3,LMANcosh,-
+GRIA4,HVC,-
+GRID1,St,-
+GRIN1,L2a,-
+GRIN2B,L2a,-
+GRIN2B,L2b,-
+GRIN2B,H,-
+GRIN2B,HVC,-
+GRIN2B,E,-
+GRIN2B,LMANco,-
+GRIN2B,CDLco,-
+GRIN2B,RA,-
+GRIN3A,L2a,-
+GRIN3A,RA,-
+GRK3,RA,-
+GRM1,L2a,-
+GRM1,CDLco,-
+GRM1,A,-
+GRM1,HVC,-
+GRM3,L2a,-
+GRM3,E,-
+GRM3,X,-
+GRM3,LMAN,-
+GRM4,APH,-
+GRM4,HP,-
+GRM4,GP,-
+HPCAL1,DLMcosh,-
+HPCAL1,Ovco,-
+HPCAL1,L2a,-
+HPCAL1,A,-
+HPCAL1,Bas,-
+HPCAL1,HVC,-
+HPCAL1,L2b,-
+HPCAL1,CDLco,-
+HPCAL1,LMANcosh,-
+HPCAL1,E,-
+HS2ST1,E,-
+HS2ST1,Ipc,-
+HTR1B,Ov,-
+HTR1B,E,-
+HTR1B,Alat,-
+HTR1B,Bas,-
+HTR1B,HVC,-
+HTR1B,MLd,-
+HTR2A,E,-
+HTR2C,Periventricular region,-
+HTR2C,MSt,-
+HTR2C,L2a,-
+HTR2C,E,-
+ID2,HF,-
+ID2,L2a,-
+ID2,E,-
+ID2,UnkPallium,-
+ID2,A,-
+IL1RAPL2,DLMco,-
+IL1RAPL2,Aros,-
+IL1RAPL2,RA,-
+JPT1,L2a,-
+JPT1,RA,-
+JPT1,Alat,-
+KCNA4,L2a,-
+KCNA4,CDLco,-
+KCNA4,X,-
+KCNA6,Alat,-
+KCNA6,MLd,-
+KCNA6,RA,-
+KCNA6,Field L,-
+KCNAB1,E,-
+KCNB1,E,-
+KCNC2,CDLco,-
+KCNC2,E,-
+KCNC2,Bas,-
+KCNC2,HVC,-
+KCNC2,A,-
+KCNC2,DMA,-
+KCNC2,L2a,-
+KCND3,N,-
+KCNF1,RA,-
+KCNF1,HVC,-
+KCNH8,HVC,-
+KCNIP1,RA,-
+KCNIP1,A,-
+KCNIP1,Bas,-
+KCNIP2,E,-
+KCNIP2,LMANcosh,-
+KCNJ6,St,-
+KCNJ6,RA,-
+KCNK10,Field L,-
+KCNK12,L2a,-
+KCNK12,E,-
+KCNK12,RA,-
+KCNK12,HVC,-
+KCNK12,HF,-
+KCNK15,RA,-
+KCNQ3,Ovco,-
+KCNQ3,DLMco,-
+KCNQ3,L2a,-
+KCNQ3,Eco,-
+KCNQ3,DLA,-
+KCNQ3,Bas,-
+KCNS1,UnkMedulla,-
+KCNS1,L2a,-
+KCNS1,Esh,-
+KCNS2,A,-
+KCNS2,HVC,-
+KCNS2,LMANco,-
+KCNS2,DLMcosh,-
+KCNS2,L2a,-
+KCNS2,E,-
+KCNS2,RA,-
+KCNT2,RA,-
+KCTD12,RA,-
+KCTD12,LMANco,-
+KCTD12,L2a,-
+KCTD12,Bas,-
+KCTD12,HVC,-
+KCTD12,M,-
+KCTD16,A,-
+KCTD17,L2b,-
+KCTD17,L2a,-
+KCTD20,St,-
+KCTD3,L2a,-
+KCTD3,RA,-
+KIF26B,Aven,-
+KIF26B,RA,-
+LGI1,Ovcosh,-
+LGI1,DLMcosh,-
+LGI1,L2a,-
+LGI1,E,-
+LGI1,Bas,-
+LGI1,A,-
+LINGO1,L2a,-
+LINGO1,Bas,-
+LINGO1,RA,-
+LMO1,L2b,-
+LMO1,LMANcosh,-
+LMO1,L2a,-
+LMO1,E,-
+LMO1,A,-
+LMO1,Bas,-
+LMO1,HVC,-
+LMO1,CDLco,-
+LMO1,Periventricular region,-
+LMO1,UnkThalamus,-
+LMO1,HF,-
+LMO3,LMAN,-
+LMO3,HF,-
+LMO3,E,-
+LUC7L3,APH,-
+MAOB,Ovcosh,-
+MAP1B,St,-
+MAP2K1,L2a,-
+MAP2K1,E,-
+MAP4,RA,-
+MAPK11,St,-
+MGAT4C,Ovco,-
+MGAT4C,RA,-
+MST4,RA,-
+MTPN,GP,-
+NCALD,LMANcosh,-
+NCALD,DLMco,-
+NCALD,L2a,-
+NCALD,Bas,-
+NCALD,E,-
+NCALD,CDLco,-
+NCALD,HVC,-
+NECAB2,Is,-
+NECAB2,Bas,-
+NECAB2,E,-
+NECAB2,RA,-
+NECTIN3,A,-
+NECTIN3,L2a,-
+NECTIN3,HVC,-
+NEGR1,Hb,-
+NEGR1,St,-
+NEGR1,L2a,-
+NEGR1,LMANsh,-
+NEGR1,Ovco,-
+NEGR1,RA,-
+NEGR1,HVC,-
+NEGR1,Bas,-
+NEGR1,E,-
+NETO1,Ovco,-
+NETO1,DLMcosh,-
+NETO1,E,-
+NETO1,E sparse cells,-
+NEUROD6,L2a,-
+NEUROD6,E,-
+NPY1R,L2a,-
+NPY1R,E,-
+NR0B1,L2a,-
+NR0B1,E,-
+NR0B1,Bas,-
+NREP,Ovsh,-
+NREP,DLMco,-
+NREP,E,-
+NRXN1,L2a,-
+NRXN1,HVC,-
+NRXN1,Bas,-
+NRXN1,E,-
+NRXN1,Rt,-
+NRXN1,RA,-
+NTS,A,-
+NTS,Eco,-
+NTS,Bas,-
+NTS,CDLco,-
+NTS,DLA,-
+NTS,HF,-
+ORAI2,Field L,-
+P2RY1,L2a,-
+P2RY1,Eco,-
+P2RY1,GP,-
+P2RY1,LMAN,-
+P2RY12,GP,-
+P4HA2,RA,-
+PAK6,L2a,-
+PAK6,X,-
+PAK6,E,-
+PAK6,CDLco,-
+PAK6,HVC,-
+PAK6,RA,-
+PENK,GP,-
+PLD1,L2a,-
+PLD1,L2b,-
+PLD1,E,-
+PLD1,LMANcosh,-
+PLD1,HVC,-
+PLD1,Bas,-
+PLD1,A,-
+PLPP4,CDLco,-
+PLPP4,Periventricular region,-
+PLPP4,M,-
+PLPP4,Pt,-
+PLPP4,DLA,-
+PLPP4,A,-
+PLPP4,St,-
+PLPP4,APH,-
+PLXNC1,DLMcosh,-
+PLXNC1,Ovco,-
+PLXNC1,Field L,-
+PLXNC1,L2b,-
+PLXNC1,L2a,-
+PLXNC1,LMANcosh,-
+PLXNC1,RA,-
+PLXNC1,HVC,-
+PLXNC1,E,-
+PLXNC1,Alat,-
+PLXND1,St,-
+PNLDC1,GP,-
+PPP1R14C,L2a,-
+PPP1R14C,E,-
+PPP3CB,HP,-
+PRKAR1B,L2a,-
+PRKAR1B,LMANco,-
+PRKAR1B,Ovcosh,-
+PRKAR1B,DLMcosh,-
+PRKAR1B,Eco,-
+PRKAR1B,CDLco,-
+PRKAR1B,RA,-
+PRKAR1B,Bas,-
+PTPRN2,DLM,-
+PTPRN2,RA,-
+PTPRR,A,-
+PTPRU,DMA,-
+PTPRU,L2a,-
+PTPRU,HVC,-
+PTPRU,RA,-
+PTPRU,Eco,-
+PTPRU,MLd,-
+PTPRU,UnkPallium,-
+PTPRZ1,HbL,-
+PTPRZ1,L2a,-
+PTPRZ1,Bas,-
+PTPRZ1,A,-
+RASGRF2,St,-
+RASGRF2,GP,-
+RASGRF2,A,-
+RCAN2,E,-
+RELN,L2a,-
+RELN,UnkHypothalamus,-
+RELN,E,-
+RELN,HVC,-
+RELN,LMANcosh,-
+RELN,Bas,-
+RELN,RA,-
+RGS12,L2a,-
+RGS12,NCL,-
+RGS12,LMANco,-
+RGS12,M,-
+RGS12,Eco,-
+RGS12,Bas,-
+RGS12,A,-
+RGS12,HVC,-
+RGS12,CDLco,-
+RGS4,SpL,-
+RIMS4,HVC,-
+RIMS4,RA,-
+RIMS4,Esh,-
+RIMS4,St,-
+ROBO1,X,-
+ROBO1,LMAN,-
+ROBO2,HF,-
+RORA,St,-
+RPL7,LSt,-
+RTN4R,HF,-
+RTN4R,LMANco,-
+RTN4R,RA,-
+RTN4RL1,HVC,-
+RTN4RL1,A,-
+RTN4RL1,Rt,-
+RYR2,Bas,-
+RYR2,E,-
+RYR3,St,-
+SAP30L,St,-
+SATB2,HF,-
+SATB2,CDLco,-
+SCN2A,LMANco,-
+SCN2A,Ovco,-
+SCN2A,DLMco,-
+SCN2A,L2a,-
+SCN2A,Eco,-
+SCN2A,MLd,-
+SCN2A,RA,-
+SCN3A,L2a,-
+SCN3A,Ovco,-
+SCN3A,LMANcosh,-
+SCN3B,RA,-
+SCN3B,LMANco,-
+SCN3B,E,-
+SCN3B,Alat,-
+SCN3B,HVC,-
+SCN3B,Bas,-
+SCN3B,UnkHypothalamus,-
+SCN3B,DLMco,-
+SCN3B,Ovco,-
+SCN3B,L2a,-
+12-Sep,L2a,-
+13-Sep,LMANsh,-
+14-Sep,RA,-
+15-Sep,E,-
+6-Sep,L2a,-
+7-Sep,HP,-
+8-Sep,St,-
+9-Sep,RA,-
+SERTM1,A,-
+SFRP2,LMANcosh,-
+SFRP2,Field L,-
+SFRP2,E,-
+SFRP2,Bas,-
+SH3BP5,LMANcosh,-
+SH3BP5,L2a,-
+SH3BP5,L2b,-
+SH3BP5,RA,-
+SLC17A6,S,-
+SLC17A6,St,-
+SLC32A1,UnkThalamus,-
+SLC32A1,Hb,-
+SLC32A1,SpM,-
+SLC32A1,Rt,-
+SLC6A11,ICo,-
+SLC6A11,Rt,-
+SLC6A7,Field L,-
+SLC6A7,DLMco,-
+SLC6A7,Ovco,-
+SLC6A7,HPdc,-
+SLC6A7,RA,-
+SLC6A7,Alat,-
+SLC8A1,Hb,-
+SLC8A1,L2a,-
+SLC8A1,RA,-
+SLC8A1,Bas,-
+SLC8A1,E,-
+SNCA,HVC,-
+SNCA,X,-
+SNCA,HbL,-
+SNCA,DLMco,-
+SNCA,Ovco,-
+SNCA,CDLco,-
+SNCA,RA,-
+SNCA,Alat,-
+SNCA,Pt,-
+SNCA,UnkPallium,-
+SNCG,UnkThalamus,-
+SNCG,DLMsh,-
+SNCG,DMAsh,-
+SOX4,L2a,-
+SOX4,HP,-
+SOX4,Bas,-
+SOX4,E,-
+SOX4,HVC,-
+SOX4,A,-
+STMN1,Cb pcl,-
+STMN1,St,-
+STMN1,Esh,-
+STMN1,CDLco,-
+STMN1,RA,-
+SV2B,cNCM,-
+SV2B,St,-
+SV2B,Periventricular region,-
+SV2B,UnkThalamus,-
+SYBU,RA,-
+SYN2,L2a,-
+SYN2,LMANcosh,-
+SYN2,E,-
+SYN2,Bas,-
+SYN3,Cb pcl,-
+SYN3,RA,-
+SYNGR3,LMANco,-
+SYNGR3,RA,-
+SYNGR3,L2a,-
+SYNGR3,DLMcosh,-
+SYNGR3,Alat,-
+SYNGR3,Bas,-
+SYNGR3,E,-
+SYT10,N,-
+SYT10,DMA,-
+SYT4,St,-
+SYT4,E,-
+TAC1,L2a,-
+TAC1,HVC,-
+TAC1,CDLco,-
+TAC1,MLd,-
+TAC1,E,-
+TAGLN3,HF,-
+TAGLN3,L2a,-
+TBR1,HF,-
+TBR1,SubG,-
+TBR1,A,-
+TNFAIP8L3,LMANco,-
+TNFAIP8L3,L2a,-
+TNFAIP8L3,E,-
+TNFAIP8L3,RA,-
+TOB1,Cb gcl dense,-
+TOB1,RA,-
+TRHDE,MSt,-
+TRIB2,HVC,-
+TRIB2,RA,-
+TXNDC9,X,-
+TXNDC9,Bas,-
+UCHL1,UnkSubpallium,-
+UCHL1,L2a,-
+UCHL1,Bas,-
+UCHL1,E,-
+UCHL1,Ipc,-
+UNC5A,L2a,-
+UNC5A,RA,-
+UNKNOWN009,A,-
+UNKNOWN010,L2a,-
+UNKNOWN010,Pal,+
+UNKNOWN010,Eco,-
+UNKNOWN010,CDLco,-
+Unknown017,A,-
+Unknown017,St,-
+UNKNOWN029,RA,-
+UNKNOWN040,LMANcosh,-
+UNKNOWN040,RA,-
+VLDLR,E,-
+WASF1,L2a,-
+WASF1,L2b,-
+WASF1,LMANcosh,-
+WASF1,HVC,-
+WASF1,RA,-
+WASF1,E,-
+WASF1,Bas,-
+WWC1,L2a,-
+WWC1,E,-
+WWC1,Bas,-
+WWC1,A,-
+YTHDC2,UnkPallium,-
+YTHDC2,UnkPallium,-
+ZMAT4,cNCM,-
+ZMAT4,HF,-
+ZMAT4,St,-
+STXBP6,CDLco,-
+ABCG4,UnkThalamus,+
+ABCG4,Ovm,+
+ABCG4,St sparse cells,+
+ABCG4,Pal,+
+ABCG4,UnkThalamus,+
+ABCG4,UnkThalamus,+
+ABCG4,UnkThalamus,+
+ABCG4,DG,+
+ABCG4,Ipc,+
+ABCG4,RA sparse cells,+
+ABCG4,CSt,+
+ABCG4,SpL,+
+ABCG4,Telencephalon,+
+ACKR3,UnkThalamus,+
+ACKR3,pia,+
+ACKR3,ChP,+
+ACKR3,UnkHypothalamus,+
+ACKR3,UnkThalamus,+
+ACKR3,UnkThalamus,+
+ACKR3,Cb pcl,+
+ACKR3,HPdc,+
+ACKR3,CM,+
+ACKR3,SpM,+
+ACKR3,UnkThalamus,+
+ACKR3,SRt,+
+ACKR3,LMANco,+
+ACKR3,SMi,+
+ACKR3,Rt,+
+ACKR3,RA,+
+ACKR3,HVC ,+
+ACKR3,GP,+
+ACKR3,HVC sparse cells,+
+ADAM23,Cb dn,+
+ADAM23,LMANco,+
+ADAM23,n5p,+
+ADAM23,SpM,+
+ADAM23,Ru,+
+ADAM23,E,+
+ADAM23,Is,+
+ADAM23,Bas sparse cells,+
+ADAM23,Bas,+
+ADAM23,RA,+
+ADAM23,HVC,+
+ADCYAP1,UnkHypothalamus,+
+ADCYAP1,DG,+
+ADCYAP1,HbL,+
+ADCYAP1,UnkThalamus,+
+ADCYAP1,DMA,+
+ADCYAP1,UnkThalamus,+
+ADCYAP1,UnkMedulla,+
+ADCYAP1,SGC,+
+ADCYAP1,GP,+
+ADCYAP1,ICo,+
+ADCYAP1,SpM,+
+ADCYAP1,Pal,+
+ADCYAP1R1,DG,+
+ADCYAP1R1,UnkHypothalamus,+
+ADGRB3,Cb pcl,+
+ADGRL3,Cb pcl,+
+ADGRL3,Cb mcl,+
+ADRA1D,UnkPallium,+
+ADRA2A,UnkPons,+
+ADRA2A,MMAN,+
+ADRA2A,UnkThalamus,+
+ADRA2A,UnkThalamus,+
+ADRA2A,St sparse cells,+
+ADRA2A,S,+
+ADRA2A,UnkHypothalamus,+
+ADRA2A,n5p,+
+ADRA2A,DLP,+
+ADRA2A,Rt,+
+ADRA2A,ICo,+
+ADRA2A,CDLco,+
+ADRA2A,LMANcosh,+
+ADRA2B,Cb pcl,+
+ADRA2B,Cb pcl,+
+ADSSL1,LMANco,+
+ADSSL1,HVC,+
+ADSSL1,Bas sparse cells,+
+ADSSL1,Bas,+
+AIFM1,MC,+
+AKAP12,n5m,+
+AKAP12,MMAN,+
+AKAP12,GP,+
+AKR1D1,Cb pcl,+
+AKR1D1,UnkThalamus,+
+AKR1D1,L3,+
+AKR1D1,Sh,+
+ALDH1A2,HA,+
+ALDH1A2,Ni,+
+ALDH1A2,pHVC,+
+ALDH1A2,LMANcosh,+
+ALDH1A2,HVC,+
+ALDH1A2,HVC sparse cells,+
+AMIGO2,S,+
+AMIGO2,HbM,+
+AMIGO2,SN,+
+AMIGO2,UnkPons,+
+AMIGO2,Rt,+
+AMIGO2,GP,+
+ANXA6,Ru,+
+ANXA6,UnkMedulla,+
+ANXA6,Cb dn,+
+ANXA6,Cb pcl,+
+ANXA6,n4,+
+ANXA6,n3v,+
+ANXA6,n3d,+
+ANXA6,MC,+
+ANXA6,La,+
+ANXA6,L2a,+
+ANXA6,ALp,+
+ANXA6,n5m,+
+ANXA6,EM,+
+ANXA6,Ovco,+
+ANXA6,DLMco,+
+ANXA6,n5p,+
+ANXA6,IsO,+
+ANXA6,Rt,+
+ANXA6,SpM,+
+ANXA6,LMANco,+
+ANXA6,SPt,+
+ANXA6,RA,+
+ANXA6,HVC,+
+ANXA6,UnkTectum,+
+ANXA6,SGC,+
+ANXA6,Is,+
+ANXA6,Alat,+
+ANXA6,MLd,+
+ANXA6,LMmc,+
+ANXA6,Pt,+
+ANXA6,GP,+
+ANXA6,Ad,+
+ANXA6,SpL,+
+APMAP,Ovco,+
+APMAP,UnkThalamus,+
+APOH,White Matter,+
+APOH,RA,+
+APOH,HVC,+
+APOH,HVC sparse cells,+
+AQP1,HbM,+
+AQP1,cNCM,+
+AQP1,DG,+
+AQP1,HP,+
+AQP1,UnkSubpallium,+
+AQP1,UnkSubpallium,+
+AQP1,White Matter,+
+AQP1,UnkSubpallium,+
+AQP1,Aven,+
+AQP1,CDL,+
+AQP1,Aros,+
+ARHGAP32,Cb pcl,+
+ARHGAP32,Ovcosh,+
+ARHGAP32,Telencephalon,+
+ARHGDIB,UnkThalamus,+
+ARHGDIB,GLv,+
+ARHGDIB,DR,+
+ARHGDIB,UnkThalamus,+
+ARHGDIB,UnkThalamus,+
+ARHGDIB,Mdm,+
+ARHGDIB,ICo,+
+ARHGDIB,Eco,+
+ARHGDIB,Ad,+
+ARHGDIB,Ac,+
+ARHGDIB,UnkHypothalamus,+
+ARHGDIB,Cb gcl,+
+ARHGDIB,S,+
+ARHGDIB,HF,+
+ARPC5,AM,+
+ARPC5,UnkHypothalamus,+
+ARPC5,LoC,+
+ARPC5,DMAsh,+
+ARPC5,Telencephalon,+
+ASS1,V,+
+ASS1,RA,+
+ASTN1,Cb pcl,+
+ATP2A3,DMA,+
+ATP2A3,VMH,+
+ATP2A3,SL,+
+ATP2A3,L2a,+
+ATP2A3,DLMsh,+
+ATP2A3,M,+
+ATP2A3,SpM,+
+ATP2A3,SN,+
+ATP2A3,UnkThalamus,+
+ATP2A3,Periventricular region,+
+ATP2A3,CDLco,+
+ATP2A3,LMANco,+
+ATP2A3,Ad,+
+ATP2A3,UnkTectum,+
+ATP2A3,UnkSubpallium,+
+ATP2A3,ICo,+
+ATP2A3,HVC,+
+ATP2B2,Ru,+
+ATP2B2,n3d,+
+ATP2B2,n3v,+
+ATP2B2,n4,+
+ATP2B2,VDB,+
+ATP2B2,SCN,+
+ATP2B2,Cb gcl,+
+ATP2B2,Cb pcl,+
+ATP2B2,HVC,+
+ATP2B2,SpL,+
+ATP2B2,RA,+
+ATP2B2,Field L,+
+ATP2B2,DMA,+
+ATP2B2,St,+
+ATP2B2,GLv,+
+ATP2B2,n5m,+
+ATP2B2,DLMcosh,+
+ATP2B2,Ovcosh,+
+ATP2B2,n5p,+
+ATP2B2,SpM,+
+ATP2B2,Ret,+
+ATP2B2,Is,+
+ATP2B2,GP,+
+AVP,PVN,+
+AVP,UnkThalamus,+
+AVP,Mdm,+
+AVP,UnkHypothalamus,+
+AVP,UnkHypothalamus,+
+AVP,UnkHypothalamus,+
+AVP,UnkHypothalamus,+
+AVP,SON,+
+B3GAT2,SN,+
+B3GAT2,DLMsh,+
+B3GAT2,APHv,+
+B3GAT2,SpM,+
+B3GAT2,SPT,+
+B3GNT2,Periventricular region,+
+B3GNT2,SpM,+
+B3GNT2,n5m,+
+B3GNT2,Cb dn,+
+B3GNT2,UnkThalamus,+
+B3GNT2,DMA,+
+B3GNT2,MC,+
+B3GNT2,Telencephalon,+
+B3GNT2,UnkThalamus,+
+B4GALT5,Pt,+
+B4GALT5,GP,+
+B4GALT5,Rt,+
+BAIAP2,UnkPallium,+
+BAIAP2,Cb pcl,+
+BAIAP2,UnkHypothalamus,+
+BAIAP2,St,+
+BAIAP2,Telencephalon,+
+BTBD10,n3v,+
+BTBD10,n3d,+
+BTBD10,n4,+
+BTBD10,Cb pcl,+
+BTBD10,SpM,+
+BTBD10,HVC,+
+BTBD10,LMANco,+
+BTBD10,Pt,+
+C11ORF87,NCM,+
+C1QL3,H,+
+C1QL3,Cb dn,+
+C1QL3,UnkPons,+
+C1QL3,UnkMedulla,+
+C1QL3,Periventricular region,+
+C1QL3,NCL,+
+C1QL3,SpM,+
+C1QL3,CDL,+
+C1QL3,A,+
+CAB39L,pHVC,+
+CAB39L,HVC sparse cells,+
+CAB39L,HVC,+
+CABP1,Ru,+
+CABP1,DR,+
+CABP1,Cb gcl sparse,+
+CABP1,Ovco,+
+CABP1,n5m,+
+CABP1,GLv,+
+CABP1,RA,+
+CABP1,SpM,+
+CABP1,SGF,+
+CABP1,Ipc,+
+CABP1,HVC,+
+CABP7,Ni,+
+CABP7,SGC,+
+CACNA1B,UnkThalamus,+
+CACNA1B,Cb gcl,+
+CACNA1B,LoC,+
+CACNA1B,SN,+
+CACNA1B,Pal,+
+CACNA1B,St sparse cells,+
+CACNA1B,GP,+
+CACNA1B,DLA,+
+CACNA1B,HVC,+
+CACNA1B,InP,+
+CACNA1B,SpL,+
+CACNA1B,X,+
+CACNA1D,UnkMedulla,+
+CACNA1E,UnkHypothalamus,+
+CACNA1E,UnkMedulla,+
+CACNA1E,HbM,+
+CACNA1E,Cb pcl,+
+CACNA1E,Telencephalon,+
+CACNA1E,Pt,+
+CACNA1E,LLD,+
+CACNA1E,UnkPons,+
+CACNA1E,Aven,+
+CACNA2D1,N,+
+CACNA2D1,SRt,+
+CACNA2D1,ICo,+
+CACNA2D1,DR,+
+CACNA2D2,UnkHypothalamus,+
+CACNA2D2,S,+
+CACNA2D2,SN,+
+CACNA2D2,Cb pcl,+
+CACNA2D2,UnkThalamus,+
+CACNA2D2,Ovcosh,+
+CACNA2D2,SubG,+
+CACNA2D2,St sparse cells,+
+CACNA2D2,UnkTectum,+
+CACNA2D2,LMANco,+
+CACNA2D2,SpL,+
+CACNA2D2,RA sparse cells,+
+CACNA2D2,HVC sparse cells,+
+CACNA2D2,HVC,+
+CACNA2D2,RA,+
+CACNA2D2,GP,+
+CACNA2D3,Cb gcl sparse,+
+CACNA2D3,UnkMedulla,+
+CACNA2D3,M,+
+CACNA2D3,Imc,+
+CACNA2D3,X,+
+CACNA2D3,SpL,+
+CACNA2D3,UnkPons,+
+CACNA2D3,Ac,+
+CACNA2D3,Pt,+
+CACNB2,UnkThalamus,+
+CACNB2,DMA,+
+CACNB2,UnkThalamus,+
+CACNB2,LoC,+
+CACNB2,DLMco,+
+CACNB2,Ovm,+
+CACNB2,Pal,+
+CACNB2,UnkThalamus,+
+CACNB2,LSt,+
+CACNB2,CSt,+
+CACNB2,SpL,+
+CACNB2,Aven,+
+CACNB3,SpM,+
+CACNB3,HVC,+
+CACNB4,Cb pcl,+
+CACNB4,Cb gcl dense,+
+CACNB4,VTA,+
+CACNB4,Telencephalon,+
+CACNB4,UnkThalamus,+
+CACNB4,SN,+
+CACNB4,UnkTectum,+
+CACNB4,HVC,+
+CACNB4,X,+
+CACNB4,Alat,+
+CACNB4,Is,+
+CACNB4,InP,+
+CACNB4,ICo,+
+CACNG2,Cb pcl,+
+CACNG3,SRt,+
+CACNG3,n5m,+
+CACNG3,UnkHypothalamus,+
+CACNG3,Telencephalon,+
+CACNG3,InP,+
+CACNG3,SpL,+
+CACNG5,S,+
+CACNG5,St sparse cells,+
+CACNG5,VTA,+
+CACNG5,DR,+
+CACNG5,Cb mcl,+
+CACNG5,UnkThalamus,+
+CACNG5,HbL,+
+CACNG5,X,+
+CACNG5,Ovcosh,+
+CACNG5,SN,+
+CACNG5,n7,+
+CACNG5,UnkThalamus,+
+CACNG5,Uva,+
+CACNG5,ICo,+
+CACNG5,Imc,+
+CACNG5,SGC,+
+CADPS,Cb dn,+
+CADPS,Ovcosh,+
+CADPS,UnkThalamus,+
+CADPS,UnkThalamus,+
+CADPS,St sparse cells,+
+CADPS,MLd,+
+CADPS,GP,+
+CADPS2,HVC sparse cells,+
+CADPS2,A,+
+CADPS2,UnkThalamus,+
+CADPS2,LoC,+
+CADPS2,M,+
+CADPS2,HVC,+
+CADPS2,X,+
+CADPS2,DR,+
+CADPS2,UnkThalamus,+
+CADPS2,SRt,+
+CADPS2,pHVC,+
+CADPS2,Pt,+
+CADPS2,SpL,+
+CADPS2,HbM,+
+CADPS2,APH,+
+CALB2,Cb gcl sparse,+
+CALB2,Cb mcl,+
+CALB2,DMA,+
+CALB2,L2a,+
+CALB2,DMAsh,+
+CALB2,L2a sparse cells,+
+CALB2,La,+
+CALB2,MC,+
+CALB2,DLMco,+
+CALB2,Mdm,+
+CALB2,Pal sparse cells,+
+CALB2,ALp,+
+CALB2,UnkThalamus,+
+CALB2,SpM,+
+CALB2,VP,+
+CALB2,St sparse cells,+
+CALB2,pRt,+
+CALB2,UnkPallium,+
+CALB2,RA sparse cells,+
+CALB2,DLA,+
+CALB2,UnkThalamus,+
+CALB2,E sparse cells,+
+CALB2,Imc,+
+CALB2,Bas,+
+CALB2,GP,+
+CALB2,LMmc,+
+CALB2,Bas sparse cells,+
+CALB2,HVC sparse cells,+
+CALN1,Pal sparse cells,+
+CALN1,RA sparse cells,+
+CALN1,E sparse cells,+
+CALN1,Alat,+
+CALN1,Bas sparse cells,+
+CALN1,HVC sparse cells,+
+CAMK2A,Telencephalon,+
+CAMK2D,Cb pcl,+
+CAMK2D,UnkSubpallium,+
+CAMK2D,MC,+
+CAMK2D,Ov,+
+CAMK2D,Aros,+
+CAMK2D,Ipc,+
+CAMK4,Cb gcl,+
+CAMK4,Telencephalon,+
+CAMKK1,DG,+
+CAMKK1,Ru,+
+CAMKK1,Cb dn,+
+CAMKK1,n3d,+
+CAMKK1,n4,+
+CAMKK1,HbM,+
+CAMKK1,MC,+
+CAMKK1,Pal,+
+CAMKK1,SpM,+
+CAMKK1,Ac,+
+CAMKK1,GP,+
+CAMKK1,HVC,+
+CAMKK1,Aven,+
+CAMKK1,CSt,+
+CAMKK1,Bas sparse cells,+
+CAMKK1,RA,+
+CAMTA1,Field L,+
+CAMTA1,Cb gcl,+
+CAMTA1,L2a,+
+CAMTA1,St sparse cells,+
+CAMTA1,MC,+
+CAMTA1,ALp,+
+CAMTA1,Ovcosh,+
+CAMTA1,DLMco,+
+CAMTA1,L2b,+
+CAMTA1,LMANco,+
+CAMTA1,SpM,+
+CAMTA1,GLv,+
+CAMTA1,Bas,+
+CAMTA1,GP,+
+CAMTA1,RA,+
+CAMTA1,HVC,+
+CAVIN1,FRL,+
+CAVIN1,DLMco,+
+CAVIN1,HVC,+
+CBLN2,Field L,+
+CBLN2,pHVC,+
+CBLN2,HF,+
+CBLN2,Tu,+
+CBLN2,UnkMedulla,+
+CBLN2,Ru,+
+CBLN2,UnkThalamus,+
+CBLN2,SHb,+
+CBLN2,UnkThalamus,+
+CBLN2,UnkThalamus,+
+CBLN2,UnkThalamus,+
+CBLN2,Ovsh,+
+CBLN2,L2b,+
+CBLN2,DLMco,+
+CBLN2,Ovm,+
+CBLN2,IPo,+
+CBLN2,n5p,+
+CBLN2,LMANcosh,+
+CBLN2,L2a,+
+CBLN2,CDL,+
+CBLN2,Rt,+
+CBLN2,HVC,+
+CBLN2,Esh,+
+CBLN2,HVC sparse cells,+
+CBLN2,ICo,+
+CBLN2,Ac,+
+CBLN2,imc,+
+CBLN2,Bas,+
+CBLN4,UnkThalamus,+
+CBLN4,M,+
+CBLN4,VP,+
+CBLN4,DLMsh,+
+CBLN4,SN,+
+CBLN4,UnkPallium,+
+CBLN4,ICo,+
+CBLN4,LMmc,+
+CBLN4,UnkPallium,+
+CBLN4,SGF,+
+CCK,DR,+
+CCK,UnkThalamus,+
+CCK,pHVC,+
+CCK,St sparse cells,+
+CCK,UnkThalamus,+
+CCK,Ovcosh,+
+CCK,DLMsh,+
+CCK,Ni  ,+
+CCK,Periventricular region,+
+CCK,cNCM,+
+CCK,HP,+
+CCK,IPo,+
+CCK,Ret,+
+CCK,n5p,+
+CCK,Rt,+
+CCK,UnkPallium,+
+CCK,Ad,+
+CCK,ICo,+
+CCK,HVC sparse cells,+
+CCK,Ac,+
+CD99L2,Cb dn,+
+CD99L2,Cb pcl,+
+CD99L2,L2a,+
+CD99L2,VP,+
+CD99L2,DLMco,+
+CD99L2,SpM,+
+CD99L2,St sparse cells,+
+CD99L2,Rt,+
+CD99L2,RA,+
+CD99L2,LMANco,+
+CD99L2,HVC,+
+CD99L2,Nif,+
+CD99L2,E,+
+CD99L2,UnkPallium,+
+CD99L2,UnkSubpallium,+
+CD99L2,GP,+
+CD99L2,Alat,+
+CDH4,LLD,+
+CDH4,UnkMedulla,+
+CDH4,SRt,+
+CDH4,UnkHypothalamus,+
+CDH4,HP,+
+CDH4,DG,+
+CDH4,Ipc,+
+CDH4,Ac,+
+CDH4,SpL,+
+CDH6,pHVC,+
+CDH6,HVC,+
+CDH6,HVC sparse cells,+
+CDH8,Hb,+
+CDH8,SpM,+
+CDH8,SpL,+
+CDH8,Pt,+
+CDH9,DG,+
+CDH9,DR,+
+CDH9,VP,+
+CDH9,n7,+
+CDH9,UnkThalamus,+
+CDH9,pHVC,+
+CDH9,St sparse cells,+
+CDH9,UnkTectum,+
+CDH9,RA sparse cells,+
+CDH9,RA,+
+CDH9,Periventricular region,+
+CDH9,HVC,+
+CDH9,DM,+
+CDH9,GP,+
+CDH9,HVC sparse cells,+
+UNKNOWN060,Cb pcl,+
+CELF4,Cb gcl,+
+CHGB,UnkThalamus,+
+CHGB,pRt,+
+CHGB,SpM,+
+CHGB,LMANco,+
+CHGB,UnkThalamus,+
+CHGB,SubG,+
+CHGB,DG,+
+CHGB,M,+
+CHGB,SN,+
+CHGB,LoC,+
+CHGB,UnkHypothalamus,+
+CHGB,UnkThalamus,+
+CHGB,St sparse cells,+
+CHGB,Imc,+
+CHGB,SGC,+
+CHGB,GP,+
+CHGB,HVC,+
+CHGB,HbL,+
+CHGB,DMA,+
+CHGB,VTA,+
+CHGB,Cb gcl dense,+
+CHGB,DR,+
+CHRM4,St,+
+CHRM4,HVC,+
+CHRM4,Pt,+
+CHRNA3,M,+
+CHRNA4,St sparse cells,+
+CHRNA4,Cb dn,+
+CHRNA4,UnkThalamus,+
+CHRNA4,APHv,+
+CHRNA4,X,+
+CHRNA4,SN,+
+CHRNA4,UnkThalamus,+
+CHRNA4,X sparse cells,+
+CHRNA4,UnkTegmentum,+
+CHRNA4,UnkHypothalamus,+
+CHRNA4,Cb dn,+
+CHRNA4,Ovm,+
+CHRNA4,UnkThalamus,+
+CHRNA4,LoC,+
+CHRNA4,GP,+
+CHRNA4,Aven,+
+CHRNA4,Pt,+
+CHRNA4,SpL,+
+CHRNA7,UnkPallium,+
+CHRNA7,HVC,+
+CHRNA7,UnkMedulla,+
+CHRNA7,LoC,+
+CHRNA7,UnkTectum,+
+CHRNB3,Cb gcl sparse,+
+CHST1,Pt,+
+CLCN4,Cb pcl,+
+CLMN,Cb pcl,+
+CLMN,Telencephalon,+
+CLMN,X,+
+CLMN,E,+
+CNN3,Cb pcl,+
+CNN3,LMAN,+
+CNN3,HVC,+
+CNTN4,DM,+
+CNTN4,X,+
+CNTN4,X sparse cells,+
+CNTN4,GLv,+
+CNTN4,SubG,+
+CNTN4,UnkPons,+
+CNTN4,UnkHypothalamus,+
+CNTN4,DMP,+
+CNTN4,Ovsh,+
+CNTN4,DMAsh,+
+CNTN4,Cb mcl,+
+CNTN4,DMA,+
+CNTN4,DG,+
+CNTN4,SR,+
+CNTN4,Ru,+
+CNTN4,DR,+
+CNTN4,NCM,+
+CNTN4,Eco,+
+CNTN4,Imc,+
+CNTN4,Alat,+
+CNTN4,MLd,+
+CNTN4,GP,+
+CNTN5,CM,+
+CNTN5,UnkThalamus,+
+CNTN5,UnkThalamus,+
+CNTN5,Cb pcl,+
+CNTNAP2,Cb pcl,+
+CNTNAP2,UnkHypothalamus,+
+CNTNAP2,GP,+
+CNTNAP2,Alat,+
+CNTNAP2,Ipc,+
+CNTNAP2,spl,+
+CNTNAP2,LMANco,+
+CNTNAP2,n5p,+
+CNTNAP2,RA,+
+CNTNAP2,SGC,+
+COX6C,UnkHypothalamus,+
+COX6C,Cb pcl,+
+COX6C,UnkThalamus,+
+COX6C,Rt,+
+COX6C,HVC,+
+COX7B,MC,+
+COX7B,Cb pcl,+
+COX7B,DMA,+
+COX7B,HVC,+
+COX7B,Rt,+
+COX7B,SpL,+
+CPE,Pal,+
+CPNE2,UnkPallium,+
+CPNE2,UnkHypothalamus,+
+CPNE2,HF,+
+CPNE2,UnkThalamus,+
+CPNE2,VMH,+
+CPNE2,Tu,+
+CPNE2,DLMsh,+
+CPNE2,Mdm,+
+CPNE2,Acc,+
+CPNE2,SubG,+
+CPNE2,UnkHypothalamus,+
+CPNE2,Periventricular region,+
+CPNE2,UnkThalamus,+
+CPNE2,SLu,+
+CPNE2,UnkThalamus,+
+CPNE2,UnkSubpallium,+
+CPNE2,E,+
+CPNE2,ICo,+
+CPNE2,Ipc,+
+CPNE2,Bas,+
+CPNE8,Ang,+
+CREB5,Rt,+
+CRHBP,UnkHypothalamus,+
+CRHBP,UnkPons,+
+CRHBP,Pal sparse cells,+
+CRHBP,Pal,+
+CRHBP,UnkPons,+
+CRHBP,UnkThalamus,+
+CRHBP,CSt,+
+CRHBP,pRt,+
+CRHBP,HVC sparse cells,+
+CRHBP,HVC,+
+CRHR1,La,+
+CRHR1,MC,+
+CRHR1,HF,+
+CRHR1,L2a,+
+CRHR1,cNCM,+
+CRHR1,L2b,+
+CRHR1,LLD,+
+CRHR1,Bas,+
+CRHR1,Eco,+
+CRHR1,CDL,+
+CRHR1,Ac,+
+CRHR2,VMH,+
+CRHR2,UnkMidbrain,+
+CRHR2,UnkThalamus,+
+CXCL14,St sparse cells,+
+CXCL14,Pal sparse cells,+
+CXCL14,Cb pcl,+
+CXCL14,Cb gcl sparse,+
+CXCL14,Telencephalon,+
+CXCL14,HVC,+
+CXCL14,Bas,+
+CXCL14,HbM,+
+CXCL14,L2a,+
+CXCL14,UnkPallium,+
+CXCL14,RA,+
+CXCL14,E,+
+CXCL14,Aros,+
+CXCL14,CDLco,+
+CYP19A1,CAn,+
+CYP19A1,cNCM,+
+CYP19A1,NCL,+
+CYP19A1,UnkPallium,+
+CYP19A1,Sh,+
+DAB1,Cb pcl,+
+DACH1,n5m,+
+DACH1,HbM,+
+DACH1,Imc,+
+DACH1,InP,+
+DACH1,Cb pcl,+
+DAPK1,HF,+
+DAPK1,S,+
+DAPK1,St,+
+DAPK1,n5m,+
+DAPK1,HVC,+
+DAPK1,Aven,+
+DAPK1,X,+
+DAPK1,HVC sparse cells,+
+DBH,UnkPons,+
+DBH,Cb pcl,+
+DCLK1,VDB,+
+DCLK1,DR,+
+DCLK1,S,+
+DCLK1,SpL,+
+DCLK1,UnkThalamus,+
+DCLK1,L2a,+
+DCLK1,Cb pcl,+
+DCLK1,HbM,+
+DCLK1,Bas,+
+DCLK1,GP,+
+DCLK1,UnkThalamus,+
+DCLK1,X,+
+DCLK1,HVC,+
+DCLK1,SpM,+
+DCLK1,pRt,+
+DCLK1,Nif,+
+DCN,RA,+
+DCN,HVC sparse cells,+
+DCN,HVC,+
+DCN,MMAN,+
+DDC,UnkHypothalamus,+
+DDC,UnkTegmentum,+
+DDC,VTA,+
+DDC,LoC,+
+DDC,SN,+
+DENND2A,HVC,+
+DENND2A,RA,+
+DHCR24,M,+
+DHCR24,HF,+
+DHCR7,HVC,+
+DHCR7,LMANco,+
+DHCR7,GP,+
+DHX35,SN,+
+DHX35,Rt,+
+DIAPH2,Cb pcl,+
+DLD,Cb pcl,+
+DNM3,HVC,+
+DNM3,HPdc,+
+DNM3,Cb gcl sparse,+
+DNM3,X,+
+DNM3,St,+
+DNM3,LMANco,+
+DNM3,Is,+
+DOK4,DG,+
+DOK5,Cb pcl,+
+DOK5,HVC,+
+DOK5,Pal sparse cells,+
+DPP6,HbL,+
+DPP6,HF,+
+DPP6,DMAsh,+
+DPP6,Cb pcl,+
+DPP6,Ovcosh,+
+DPP6,UnkThalamus,+
+DPP6,UnkThalamus,+
+DPP6,Periventricular region,+
+DPP6,X sparse cells,+
+DPP6,LMANco,+
+DPP6,HVC,+
+DPP6,SGC,+
+DPP6,SpL,+
+DRD2,VTA,+
+DRD2,Cb pcl,+
+DRD2,St,+
+DRD2,X,+
+DRD5,St,+
+DRD7,M,+
+DRD7,ICo,+
+ENO1,HbM,+
+ENO1,HF,+
+ENO1,VP,+
+ENO1,DLMcosh,+
+ENO1,St sparse cells,+
+ENO1,Cb gcl sparse,+
+ENO1,V,+
+ENO1,MC,+
+ENO1,Cb pcl,+
+ENO1,EM,+
+ENO1,Ovcosh,+
+ENO1,IPo,+
+ENO1,Ret,+
+ENO1,SpM,+
+ENO1,n5p,+
+ENO1,SN,+
+ENO1,IsO,+
+ENO1,Is,+
+ENO1,SPt,+
+ENO1,SpL,+
+ENO1,Rt,+
+EPB41L3,B,+
+EPB41L3,VDB,+
+EPB41L3,Cb pcl,+
+EPB41L3,MC,+
+EPB41L3,UnkThalamus,+
+EPB41L3,Ovcosh,+
+EPB41L3,n5p,+
+EPB41L3,IsO,+
+EPB41L3,SpM,+
+EPB41L3,DLMco,+
+EPB41L3,SpL,+
+EPB41L3,LMANcosh,+
+EPB41L3,DLA,+
+EPB41L3,Pt,+
+EPB41L3,GP,+
+EPB41L3,Imc,+
+EPB41L3,SGC,+
+EPHA4,SN,+
+EPHA4,Rt,+
+UNKNOWN067,DR,+
+UNKNOWN067,UnkThalamus,+
+UNKNOWN067,DG,+
+UNKNOWN067,APH,+
+UNKNOWN067,Cb dn,+
+UNKNOWN067,UnkTegmentum,+
+UNKNOWN067,UnkThalamus,+
+UNKNOWN067,SRt,+
+UNKNOWN067,UnkThalamus,+
+UNKNOWN067,SubG,+
+UNKNOWN067,GLv,+
+UNKNOWN067,St sparse cells,+
+UNKNOWN067,IsO,+
+UNKNOWN067,SpM,+
+UNKNOWN067,Aros,+
+UNKNOWN067,LLD,+
+UNKNOWN067,UnkThalamus,+
+UNKNOWN067,UnkThalamus,+
+ETV1,Pal sparse cells,+
+ETV1,Cb gcl,+
+ETV1,Ni,+
+ETV1,UnkThalamus,+
+ETV1,UnkThalamus,+
+ETV1,HbM,+
+ETV1,UnkPallium,+
+ETV1,UnkThalamus,+
+ETV1,HVC sparse cells,+
+ETV1,A,+
+ETV1,St sparse cells,+
+ETV1,n5m,+
+ETV1,UnkThalamus,+
+ETV1,UnkThalamus,+
+ETV1,HF,+
+EVC,HVC,+
+FAM163B,DMA,+
+FAM163B,S,+
+FAM163B,UnkSubpallium,+
+FAM163B,Acc,+
+FAM163B,UnkHypothalamus,+
+FAM163B,GLv,+
+FAM163B,Pal,+
+FAM163B,UnkThalamus,+
+FAM163B,UnkThalamus,+
+FAM163B,UnkPallium,+
+FAM163B,CSt,+
+FAM163B,SGF,+
+FAM163B,ICo,+
+FAM163B,CDL,+
+FAM163B,UnkSubpallium,+
+FAM163B,UnkTectum,+
+FAM163B,DLA,+
+FAM163B,HVC sparse cells,+
+FLRT2,X,+
+FLRT2,LMANcosh,+
+FLRT2,HPdc,+
+FLRT2,HbM,+
+FLRT2,Pal,+
+FLRT2,Pt,+
+FLRT2,Rt,+
+FLRT2,SpL,+
+FLRT2,RA,+
+FLRT2,HVC,+
+FLRT2,Bas,+
+FNDC9,UnkHypothalamus,+
+FNDC9,DMP,+
+FNDC9,UnkHypothalamus,+
+FNDC9,LMANco,+
+FNDC9,HVC,+
+FNDC9,UnkPallium,+
+FNDC9,pHVC,+
+FNDC9,UnkSubpallium,+
+FOSL2,St sparse cells,+
+FOSL2,Tu,+
+FOSL2,SL,+
+FOSL2,HF,+
+FOSL2,M,+
+FOSL2,A,+
+FOSL2,SpL,+
+FOSL2,Alat,+
+FOSL2,CDLco,+
+FOSL2,HVC,+
+FOXP1,St,+
+FOXP1,UnkTegmentum,+
+FOXP1,M,+
+FOXP1,DLM,+
+FOXP1,pHVC,+
+FOXP1,APHd,+
+FOXP1,SpL,+
+FOXP1,HVC,+
+FOXP1,CM,+
+FOXP1,DMA,+
+FOXP2,DMA,+
+FOXP2,St,+
+FOXP2,Ovco,+
+FOXP2,Cb pcl,+
+FOXP2,DLP,+
+FOXP2,Rt,+
+FOXP2,ICo,+
+FOXP2,UnkMedulla,+
+GAB1,IsO,+
+GAB1,M,+
+GAB1,CDLco,+
+GABBR2,HbM,+
+GABBR2,Ovco,+
+GABBR2,GLv,+
+GABBR2,DLM,+
+GABBR2,Rt,+
+GABBR2,Ipc,+
+GABBR2,SGC,+
+GABBR2,DMA,+
+GABBR2,Cb pcl,+
+GABRA1,n3v,+
+GABRA1,n3d,+
+GABRA1,Cb pcl,+
+GABRA1,VDB,+
+GABRA1,B,+
+GABRA1,St sparse cells,+
+GABRA1,UnkTectum,+
+GABRA1,SN,+
+GABRA1,UnkTectum,+
+GABRA1,GP,+
+GABRA3,UnkThalamus,+
+GABRA3,Mdm,+
+GABRA3,St,+
+GABRA3,UnkThalamus,+
+GABRA3,Is,+
+GABRA3,LLD,+
+GABRA3,OvPG,+
+GABRA5,LM,+
+GABRA5,MC,+
+GABRA5,M,+
+GABRA5,St,+
+GABRA5,ICo,+
+GABRA5,A,+
+GABRB2,St sparse cells,+
+GABRB2,Cb mcl,+
+GABRB2,GP,+
+GABRB3,HbL,+
+GABRB3,DG,+
+GABRB3,DR,+
+GABRB3,UnkThalamus,+
+GABRB3,UnkThalamus,+
+GABRB3,UnkThalamus,+
+GABRB3,St,+
+GABRB3,UnkPons,+
+GABRB3,n5p,+
+GABRB3,Periventricular region,+
+GABRB3,UnkTectum,+
+GABRB3,ICo,+
+GABRB3,A,+
+GABRB3,UnkTectum,+
+GABRB3,RA sparse cells,+
+GABRD,Cb gcl,+
+GABRD,MMAN,+
+GABRD,DMA,+
+GABRD,IsO,+
+GABRD,Pal,+
+GABRD,UnkThalamus,+
+GABRD,LMANco,+
+GABRD,SGC,+
+GABRD,Imc,+
+GABRD,HVC,+
+GABRE,Cb dn,+
+GABRE,SuVe,+
+GABRE,LVe,+
+GABRE,Cb gcl sparse,+
+GABRE,Field L,+
+GABRE,UnkThalamus,+
+GABRE,UnkPons,+
+GABRE,DM,+
+GABRE,SLu,+
+GABRE,CSt,+
+GABRE,Ret,+
+GABRE,Nif,+
+GABRE,HVC,+
+GABRE,RA,+
+GABRE,St sparse cells,+
+GABRE,X,+
+GABRE,LMANco,+
+GABRE,M,+
+GABRG2,Cb pcl,+
+GABRG2,Rt,+
+GABRG2,UnkTectum,+
+GABRG2,St sparse cells,+
+GABRG2,X,+
+GAD1,UnkPons,+
+GAD1,UnkThalamus,+
+GAD1,UnkHypothalamus,+
+GAD1,UnkThalamus,+
+GAD1,UnkThalamus,+
+GAD1,L2a sparse cells,+
+GAD1,Cb gcl sparse,+
+GAD1,Cb pcl,+
+GAD1,Cb mcl,+
+GAD1,GLv,+
+GAD1,UnkTectum,+
+GAD1,St,+
+GAD1,Ret,+
+GAD1,UnkTectum,+
+GAD1,UnkTectum,+
+GAD1,UnkTectum,+
+GAD1,MLd,+
+GAD1,HVC sparse cells,+
+GAD1,GP,+
+GAD1,Imc,+
+GAD2,S,+
+GAD2,St,+
+GAD2,Cb mcl,+
+GAD2,UnkThalamus,+
+GAD2,UnkThalamus,+
+GAD2,Cb gcl sparse,+
+GAD2,ALp,+
+GAD2,UnkPons,+
+GAD2,Ret,+
+GAD2,UnkThalamus,+
+GAD2,HVC sparse cells,+
+GAD2,HVC,+
+GAP43,LMAN,+
+GAP43,M,+
+GCSH,Pt,+
+GDA,DG,+
+GDA,Cb pcl,+
+GDA,UnkHypothalamus,+
+GDA,LoC,+
+GDA,Telencephalon,+
+GDI2,Ovco,+
+GDI2,LMAN,+
+GDI2,HVC,+
+GGT7,Cb pcl,+
+GHRH,DMP,+
+GHRH,DLMsh,+
+GHRH,UnkPallium,+
+GHRH,UnkThalamus,+
+GLRA3,Pt,+
+GLRA4,CSt,+
+GLRA4,White Matter,+
+GLRA4,RA,+
+GLRA4,Aros,+
+GLRA4,Pt,+
+GLRB,Ov,+
+GLRB,UnkThalamus,+
+GLRB,ALp,+
+GLRB,Cb pcl,+
+GLRB,UnkPons,+
+GLRB,Rt,+
+GLRB,SpL,+
+GLRB,LMANco,+
+GLRB,HVC,+
+GNG13,Cb pcl,+
+GPC3,NCM,+
+GPC3,VTA,+
+GPC3,LoC,+
+GPC3,LMAN,+
+GPI,M,+
+GPI,HVC,+
+GPM6A,Cb gcl dense,+
+GPM6A,Die,+
+GPM6A,SPc,+
+GPM6A,M,+
+GPR78,PM,+
+GPR78,SN,+
+GPR78,St sparse cells,+
+GPR78,Ipc,+
+GPR78,SGC,+
+GPR78,LSt,+
+GPR78,Rt,+
+GRIA1,Olfactory bulb,+
+GRIA1,CM,+
+GRIA1,HbM,+
+GRIA1,M,+
+GRIA1,St,+
+GRIA2,HVC sparse cells,+
+GRIA3,MC,+
+GRIA3,LM,+
+GRIA3,UnkTegmentum,+
+GRIA3,B,+
+GRIA3,Cb mcl,+
+GRIA3,Cb gcl,+
+GRIA3,L2a sparse cells,+
+GRIA3,Hb,+
+GRIA3,Pal,+
+GRIA3,UnkThalamus,+
+GRIA3,LMAN sparse cells,+
+GRIA3,Imc,+
+GRIA3,HVC sparse cells,+
+GRIA3,SPT,+
+GRIA3,Ret,+
+GRIA3,Rt,+
+GRIA4,CM,+
+GRIA4,UnkThalamus,+
+GRIA4,Imc,+
+GRIA4,Rt,+
+GRID1,HVC,+
+GRID1,LMANcosh,+
+GRID1,UnkThalamus,+
+GRID1,Cb pcl,+
+GRID1,HPdc,+
+GRID1,UnkHypothalamus,+
+GRID1,SGC,+
+GRID1,Bas,+
+GRID1,GP,+
+GRID2IP,Cb pcl,+
+GRIK3,CM,+
+GRIK3,DMA,+
+GRIK3,S,+
+GRIK3,SN,+
+GRIK3,Ret,+
+GRIK3,M,+
+GRIK3,Aros,+
+GRIK3,CDLco,+
+GRIK3,CSt,+
+GRIN1,Cb pcl,+
+GRIN1,Telencephalon,+
+GRIN1,X,+
+GRIN2A,X,+
+GRIN2A,HVC,+
+GRIN2A,SGC,+
+GRIN2B,DMA,+
+GRIN2B,Cb pcl,+
+GRIN2B,Telencephalon,+
+GRIN2B,HVC sparse cells,+
+GRIN3A,n4,+
+GRIN3A,CDLco,+
+GRIP2,SN,+
+GRIP2,St sparse cells,+
+GRIP2,SpL,+
+GRIP2,HVC sparse cells,+
+GRK3,Pal,+
+GRK3,SGC,+
+GRK3,Ecosh,+
+GRM1,MC,+
+GRM1,UnkThalamus,+
+GRM1,St sparse cells,+
+GRM1,LLD,+
+GRM1,SpL,+
+GRM1,LoC,+
+GRM1,Cb pcl,+
+GRM1,Esh,+
+GRM1,UnkTectum,+
+GRM1,UnkTectum,+
+GRM1,SGC,+
+GRM1,NCL,+
+GRM1,MLd,+
+GRM1,GP,+
+GRM3,SM,+
+GRM3,SRt,+
+GRM3,RA,+
+GRM3,MLd,+
+GRM4,DMA,+
+GRM4,CM,+
+GRM4,St,+
+GSTA2,Cb gcl sparse,+
+GSTA2,Cb pcl,+
+GSTA2,L2a,+
+GSTA2,Eco,+
+GSTA2,White Matter,+
+GSTA2,HVC sparse cells,+
+GSTA4,V,+
+GSTA4,Cb pcl,+
+GSTA4,RA,+
+HCN1,Ovco,+
+HCN1,SpL,+
+HCN1,Rt,+
+HNRNPAB,Pt,+
+HPCAL1,Cb gcl,+
+HPCAL1,Cb pcl,+
+HPCAL1,Ac,+
+HPCAL1,Bas sparse cells,+
+HPCAL1,HVC sparse cells,+
+HPCAL1,CDL,+
+HPCAL1,E sparse cells,+
+HPCAL1,Ad,+
+HRH3,UnkHypothalamus,+
+HRH3,DR,+
+HRH3,Cb pcl,+
+HRH3,HbM,+
+HRH3,UnkSubpallium,+
+HRH3,UnkThalamus,+
+HRH3,Rt,+
+HS2ST1,HbM,+
+HS2ST1,SGC,+
+HS2ST1,Rt,+
+HS3ST1,Pal,+
+HS3ST1,GP,+
+HS3ST4,UnkThalamus,+
+HS3ST4,M,+
+HS3ST4,CSt,+
+HTATIP2,Cb pcl,+
+HTATIP2,Aros,+
+HTR1B,UnkSubpallium,+
+HTR1B,UnkTegmentum,+
+HTR1B,CM,+
+HTR1B,Ru,+
+HTR1B,DR,+
+HTR1B,DG,+
+HTR1B,IsO,+
+HTR1B,St,+
+HTR1B,DLMco,+
+HTR1B,n5p,+
+HTR1B,CDLco,+
+HTR1B,Ac,+
+HTR1B,Aros,+
+HTR1B,RA,+
+HTR1B,SPc,+
+HTR1B,LMANco,+
+HTR1B,X,+
+HTR1D,APH,+
+HTR2A,UnkThalamus,+
+HTR2A,X,+
+HTR2A,CM,+
+HTR2A,HPdc,+
+HTR2A,Alat,+
+HTR2A,RA,+
+HTR2B,Cb pcl,+
+HTR2C,Ovco,+
+HTR2C,DLMcosh,+
+HTR4,Cb pcl,+
+HTRA1,n3d,+
+HTRA1,n3v,+
+HTRA1,n5m,+
+HTRA1,Cb pcl,+
+HTRA1,IsO,+
+HTRA1,UnkPons,+
+HTRA1,HPdc,+
+HTRA1,UnkThalamus,+
+HTRA1,DLMcosh,+
+HTRA1,Rt,+
+HTRA1,UnkTectum,+
+HTRA1,MLd,+
+ID2,UnkHypothalamus,+
+ID2,Pal,+
+ID2,LMANco,+
+ID2,SGC,+
+ID2,MLd,+
+ID2,Pt,+
+ID2,HVC,+
+ID2,Aven,+
+IGF1,St sparse cells,+
+IGF1,RA,+
+IGF2BP3,Cb gcl,+
+IL1RAPL2,Field L,+
+IL1RAPL2,HPdc,+
+IL1RAPL2,GLv,+
+IL1RAPL2,Ret,+
+IL1RAPL2,SpM,+
+IL1RAPL2,Esh,+
+IL1RL2,M,+
+INSIG1,SpM,+
+IP6K3,Ovco,+
+IP6K3,UnkHypothalamus,+
+IP6K3,Ipc,+
+IP6K3,SpL,+
+JPT1,UnkMedulla,+
+JPT1,n6,+
+JPT1,LoC,+
+JPT1,n4,+
+JPT1,n3v,+
+JPT1,n3d,+
+JPT1,HF,+
+JPT1,LMAN,+
+KCMF1,HPdc,+
+KCMF1,UnkThalamus,+
+KCNA1,UnkSubpallium,+
+KCNA1,EM,+
+KCNA1,X,+
+KCNA1,LMANco,+
+KCNA1,ALp,+
+KCNA1,M,+
+KCNA1,Arc,+
+KCNA1,St,+
+KCNA1,UnkThalamus,+
+KCNA1,UnkThalamus,+
+KCNA1,Ru,+
+KCNA1,L2a sparse cells,+
+KCNA1,n4,+
+KCNA1,E sparse cells,+
+KCNA1,Is,+
+KCNA1,MLd,+
+KCNA1,GP,+
+KCNA1,SPt,+
+KCNA1,HVC,+
+KCNA3,Ovm,+
+KCNA3,SPc,+
+KCNA3,UnkThalamus,+
+KCNA3,DG,+
+KCNA3,DR,+
+KCNA4,DR,+
+KCNA4,St,+
+KCNA6,Periventricular region,+
+KCNA6,SubG,+
+KCNA6,UnkThalamus,+
+KCNA6,Ovm,+
+KCNA6,UnkTectum,+
+KCNA6,ICo,+
+KCNAB1,UnkThalamus,+
+KCNAB1,X,+
+KCNAB1,LMANco,+
+KCNAB1,Ovco,+
+KCNAB1,DLMcosh,+
+KCNAB1,Cb dn,+
+KCNAB1,E sparse cells,+
+KCNAB1,Imc,+
+KCNAB1,MLd,+
+KCNAB1,UnkThalamus,+
+KCNAB1,SPt,+
+KCNAB1,SpL,+
+KCNAB1,RA,+
+KCNAB1,Rt,+
+KCNAB1,HVC,+
+KCNAB1,n3v,+
+KCNAB1,n3d,+
+KCNAB2,SpM,+
+KCNAB2,Nif,+
+KCNAB2,LMANco,+
+KCNAB2,EM,+
+KCNAB2,Ovcosh,+
+KCNAB2,DLMco,+
+KCNAB2,Cb dn,+
+KCNAB2,Cb pcl,+
+KCNAB2,Ru,+
+KCNAB2,St sparse cells,+
+KCNAB2,Is,+
+KCNAB2,E,+
+KCNAB2,GP,+
+KCNAB2,MLd,+
+KCNAB2,DLA,+
+KCNAB2,DLP,+
+KCNAB2,RA,+
+KCNAB2,Rt,+
+KCNAB2,SPt,+
+KCNAB2,HVC sparse cells,+
+KCNAB2,HVC,+
+KCNAB2,B,+
+KCNAB2,MMAN,+
+KCNAB2,n5m,+
+KCNAB2,Hb,+
+KCNAB2,EW,+
+KCNAB2,n3d,+
+KCNAB2,n3v,+
+KCNB1,SGC,+
+KCNB1,Ipc,+
+KCNC1,VDB,+
+KCNC1,UnkSubpallium,+
+KCNC1,n3v,+
+KCNC1,n3d,+
+KCNC1,n4,+
+KCNC1,L2a sparse cells,+
+KCNC1,St sparse cells,+
+KCNC1,ALp,+
+KCNC1,EM,+
+KCNC1,UnkThalamus,+
+KCNC1,DLMco,+
+KCNC1,Ovcosh,+
+KCNC1,MC,+
+KCNC1,Ret,+
+KCNC1,GLv,+
+KCNC1,LMANco,+
+KCNC1,E sparse cells,+
+KCNC1,Alat,+
+KCNC1,Imc,+
+KCNC1,MLd,+
+KCNC1,GP,+
+KCNC1,RA,+
+KCNC1,HVC sparse cells,+
+KCNC1,SPt,+
+KCNC1,HVC,+
+KCNC1,UnkTectum,+
+KCNC2,UnkThalamus,+
+KCNC2,SPt,+
+KCNC2,UnkThalamus,+
+KCNC2,SRt,+
+KCNC2,Cb gcl sparse,+
+KCNC2,MLd,+
+KCNC2,GP,+
+KCNC2,HVC sparse cells,+
+KCNC2,UnkPons,+
+KCNC2,St sparse cells,+
+KCNC2,Pal,+
+KCND2,UnkHypothalamus,+
+KCND2,UnkThalamus,+
+KCND2,HF,+
+KCND2,UnkPallium,+
+KCND2,Ret,+
+KCND2,Rt,+
+KCND2,SPt,+
+KCND2,SpL,+
+KCND2,Pt,+
+KCND2,UnkSubpallium,+
+KCND2,Imc,+
+KCND2,SGC,+
+KCND3,Cb pcl,+
+KCND3,VTA,+
+KCND3,UnkThalamus,+
+KCND3,LMANco,+
+KCND3,SGC,+
+KCND3,SpL,+
+KCND3,SN,+
+KCNF1,SubG,+
+KCNF1,UnkPallium,+
+KCNF1,X sparse cells,+
+KCNF1,CSt,+
+KCNF1,SGC,+
+KCNF1,DM,+
+KCNF1,Pt,+
+KCNF1,Ovm,+
+KCNF1,M,+
+KCNG2,Rt,+
+KCNH8,Ovcosh,+
+KCNH8,HbL,+
+KCNH8,ICo,+
+KCNH8,SN,+
+KCNIP1,SGC,+
+KCNIP1,Pt,+
+KCNIP1,SpL,+
+KCNIP2,UnkPons,+
+KCNIP2,SpM,+
+KCNIP2,DMP,+
+KCNIP2,SRt,+
+KCNIP2,X,+
+KCNIP2,N,+
+KCNIP2,SGC,+
+KCNIP2,LSt,+
+KCNIP2,UnkThalamus,+
+KCNIP2,UnkTectum,+
+KCNIP2,UnkPons,+
+KCNIP2,UnkTectum,+
+KCNIP2,CSt,+
+KCNIP2,n5m,+
+KCNIP2,Cb dn,+
+KCNIP2,VMH,+
+KCNIP2,n3d,+
+KCNIP2,n3v,+
+KCNIP2,n4,+
+KCNIP2,UnkPons,+
+KCNIP2,Cb pcl,+
+KCNIP4,APH,+
+KCNIP4,Ovm,+
+KCNIP4,Cb pcl,+
+KCNIP4,SpL,+
+KCNIP4,LSt,+
+KCNIP4,SGC,+
+KCNJ5,X sparse cells,+
+KCNJ5,Cb gcl dense,+
+KCNJ5,SN,+
+KCNJ6,Periventricular region,+
+KCNJ6,Ovcosh,+
+KCNJ6,Imc,+
+KCNJ6,SPc,+
+KCNJ6,UnkThalamus,+
+KCNJ6,DLA,+
+KCNJ6,Rt,+
+KCNJ6,HbM,+
+KCNJ6,UnkPallium,+
+KCNJ6,VMH,+
+KCNJ6,DMA,+
+KCNJ6,SM,+
+KCNK1,Cb pcl,+
+KCNK1,SGC,+
+KCNK1,Imc,+
+KCNK10,Ovcosh,+
+KCNK10,LoC,+
+KCNK10,DG,+
+KCNK12,UnkSubpallium,+
+KCNK12,UnkThalamus,+
+KCNK12,DLMcosh,+
+KCNK12,Pal,+
+KCNK12,Aros,+
+KCNK12,UnkPons,+
+KCNK12,UnkThalamus,+
+KCNK12,UnkPons,+
+KCNK12,UnkThalamus,+
+KCNK12,SpM,+
+KCNK12,n3v,+
+KCNK12,n4,+
+KCNK13,UnkThalamus,+
+KCNK13,Bas sparse cells,+
+KCNK2,LMANco,+
+KCNK2,X,+
+KCNK2,St,+
+KCNK2,E,+
+KCNK2,Esh,+
+KCNK2,SGC,+
+KCNK9,Cb gcl,+
+KCNK9,DR,+
+KCNK9,SpM,+
+KCNK9,HVC,+
+KCNMB4,UnkMedulla,+
+KCNMB4,UnkMedulla,+
+KCNMB4,UnkMedulla,+
+KCNMB4,UnkPons,+
+KCNMB4,UnkPons,+
+KCNQ2,SLu,+
+KCNQ3,UnkHypothalamus,+
+KCNQ3,IPo,+
+KCNQ3,EM,+
+KCNQ3,Ovm,+
+KCNQ3,UnkThalamus,+
+KCNQ3,Telencephalon,+
+KCNQ3,E sparse cells,+
+KCNQ3,UnkPons,+
+KCNQ3,SPc,+
+KCNQ3,GP,+
+KCNQ3,InP,+
+KCNQ3,n5p,+
+KCNQ3,DLP,+
+KCNQ3,SpL,+
+KCNQ3,SPt,+
+KCNQ3,UnkThalamus,+
+KCNQ3,UnkHypothalamus,+
+KCNQ3,DR,+
+KCNQ3,Cb mcl,+
+KCNQ5,UnkHypothalamus,+
+KCNQ5,MSt,+
+KCNQ5,HP,+
+KCNQ5,M,+
+KCNQ5,CDLco,+
+KCNS1,UnkHypothalamus,+
+KCNS1,UnkThalamus,+
+KCNS1,UnkThalamus,+
+KCNS1,UnkSubpallium,+
+KCNS1,SpM,+
+KCNS1,DMA,+
+KCNS1,HbM,+
+KCNS1,n3d,+
+KCNS1,n3v,+
+KCNS1,X,+
+KCNS1,UnkThalamus,+
+KCNS1,DLMcosh,+
+KCNS1,Alat,+
+KCNS1,Ad,+
+KCNS1,MLd,+
+KCNS1,Imc,+
+KCNS1,Eco,+
+KCNS1,HVC,+
+KCNS1,RA,+
+KCNS1,LLD,+
+KCNS1,DM,+
+KCNS1,Pt,+
+KCNS1,SpL,+
+KCNS1,IsO,+
+KCNS2,HVC sparse cells,+
+KCNS2,CSt,+
+KCNS2,Pal,+
+KCNS3,Ovco,+
+KCNS3,n5m,+
+KCNS3,MC,+
+KCNS3,Ipc,+
+KCNT1,GLv,+
+KCNT1,UnkTectum,+
+KCNT1,SpM,+
+KCNT1,IsO,+
+KCNT1,St sparse cells,+
+KCNT1,M,+
+KCNT1,HPdc,+
+KCNT1,SGC,+
+KCNT1,Imc,+
+KCNT1,UnkThalamus,+
+KCNT1,Aros,+
+KCNT1,UnkTectum,+
+KCNT1,Cb gcl sparse,+
+KCNT1,SL,+
+KCNT2,Rt,+
+KCNT2,SpM,+
+KCNT2,X,+
+KCNT2,DMP,+
+KCNT2,UnkHypothalamus,+
+KCNT2,E,+
+KCNT2,HVC sparse cells,+
+KCNT2,UnkPallium,+
+KCNT2,UnkThalamus,+
+KCNT2,UnkThalamus,+
+KCTD12,UnkPallium,+
+KCTD12,UnkThalamus,+
+KCTD12,Ovm,+
+KCTD12,X,+
+KCTD12,Ovsh,+
+KCTD12,VP,+
+KCTD12,UnkTectum,+
+KCTD12,Ac,+
+KCTD12,SPc,+
+KCTD12,Ipc,+
+KCTD12,HF,+
+KCTD12,UnkThalamus,+
+KCTD12,UnkPons,+
+KCTD12,UnkHypothalamus,+
+KCTD12,Cb pcl,+
+KCTD12L,UnkPons,+
+KCTD12L,M,+
+KCTD12L,Cb gcl,+
+KCTD12L,HbM,+
+KCTD16,Cb pcl,+
+KCTD16,UnkHypothalamus,+
+KCTD16,SRt,+
+KCTD16,M,+
+KCTD16,UnkThalamus,+
+KCTD16,DG,+
+KCTD16,Aros,+
+KCTD16,RA,+
+KCTD16,RA sparse cells,+
+KCTD16,DLA,+
+KCTD16,SpM,+
+KCTD17,SpM,+
+KCTD17,IsO,+
+KCTD17,n5m,+
+KCTD17,UnkHypothalamus,+
+KCTD17,EM,+
+KCTD17,UnkHypothalamus,+
+KCTD17,DLMco,+
+KCTD17,Ovcosh,+
+KCTD17,Ipc,+
+KCTD17,GP,+
+KCTD17,Rt,+
+KCTD17,UnkThalamus,+
+KCTD17,SPt,+
+KCTD17,SpL,+
+KCTD17,Pal,+
+KCTD17,Ru,+
+KCTD17,EW,+
+KCTD17,n3v,+
+KCTD17,n3d,+
+KCTD17,n4,+
+KCTD17,Cb dn,+
+KCTD17,Cb pcl,+
+KCTD20,HVC,+
+KCTD20,Aros,+
+KCTD20,UnkThalamus,+
+KCTD20,SpL,+
+KCTD20,UnkPons,+
+KCTD3,SLu,+
+KIAA0513,Ru,+
+KIAA0513,Cb pcl,+
+KIAA0513,n4,+
+KIAA0513,n3v,+
+KIAA0513,n3d,+
+KIAA0513,St sparse cells,+
+KIAA0513,LMANco,+
+KIAA0513,SpM,+
+KIAA0513,UnkPons,+
+KIAA0513,UnkPons,+
+KIAA0513,HVC sparse cells,+
+KIAA0513,HVC,+
+KIAA1324L,Cb pcl,+
+KIAA1324L,GP,+
+KIF21A,SN,+
+KIF21A,St sparse cells,+
+KIF21A,Aven,+
+KLC1,HVC sparse cells,+
+LAMTOR1,SpM,+
+LAMTOR1,Pt,+
+LAMTOR1,GP,+
+LGI1,UnkPons,+
+LGI1,HPdc,+
+LGI1,UnkMedulla,+
+LGI1,Cb pcl,+
+LGI1,Telencephalon,+
+LGI1,MLd,+
+LGI1,UnkTectum,+
+LGI1,Pt,+
+LGI1,Aros,+
+LGI1,Ac,+
+LGMN,HVC,+
+LINGO1,Pal,+
+LINGO1,GP,+
+LINGO1,ipc,+
+LMO1,X sparse cells,+
+LMO1,UnkThalamus,+
+LMO1,DLMcosh,+
+LMO1,UnkThalamus,+
+LMO1,UnkThalamus,+
+LMO1,UnkThalamus,+
+LMO1,DMA,+
+LMO1,Hb,+
+LMO1,Pal,+
+LMO1,Imc,+
+LMO1,Aros,+
+LMO1,LMpc,+
+LMO1,SPt,+
+LMO1,SN,+
+LMO1,UnkThalamus,+
+LMO1,SpM,+
+LMO1,Ru,+
+LMO1,SM,+
+LMO3,A,+
+LMO3,HVC,+
+LMO3,UnkPallium,+
+LRRN3,DMA,+
+LRRN3,LMAN,+
+LRRN3,Eco,+
+LSAMP,HP,+
+LSAMP,DG,+
+LSAMP,Cb pcl,+
+LSAMP,Cb mcl,+
+LSAMP,MC,+
+LSAMP,UnkThalamus,+
+LSAMP,Rt,+
+LSAMP,SGC,+
+LSAMP,Imc,+
+LSAMP,Ipc,+
+LSAMP,Pt,+
+MAOA,APHd,+
+MAOA,St sparse cells,+
+MAOB,SN,+
+MAOB,UnkThalamus,+
+MAOB,HbL,+
+MAOB,HF,+
+MAOB,UnkMedulla,+
+MAOB,SRt,+
+MAOB,DR,+
+MAOB,Mdm,+
+MAOB,pRt,+
+MAOB,Ac,+
+MAP1B,Ru,+
+MAP1B,n4,+
+MAP1B,LoC,+
+MAP1B,Ovco,+
+MAP1B,pHVC,+
+MAP1B,UnkPons,+
+MAP1B,SpM,+
+MAP1B,HVC,+
+MAP1B,LMAN,+
+MAP1B,GP,+
+MAP2K1,Cb dn,+
+MAP2K1,Cb pcl,+
+MAP2K1,UnkHypothalamus,+
+MAP2K1,MC,+
+MAP4,SubG,+
+MAP4,UnkThalamus,+
+MAP4,MLd,+
+MAP4,SGC,+
+MAP4,CDLco,+
+MAP4,Pt,+
+MAP4,GP,+
+MAP4,HVC sparse cells,+
+MAP4,SPc,+
+MAP4,Rt,+
+MAP4,IsO,+
+MAP4,HVC,+
+MAP4,UnkPons,+
+MAP4,Ovcosh,+
+MAP4,Cb mcl,+
+MAP4,EW,+
+MAP4,n3d,+
+MAP4,n3v,+
+MAP4,HbM,+
+MAP4,HF,+
+MAPK1,n5m,+
+MAPK1,Ipc,+
+MAPK11,SRt,+
+MAPK11,n5m,+
+MAPK11,Cb pcl,+
+MAPK11,St sparse cells,+
+MAPK11,GP,+
+MAPK11,SGC,+
+MAPK11,HVC sparse cells,+
+MAPK11,HVC,+
+MCU,Cb pcl,+
+MCU,NCM,+
+MCU,DG,+
+MCU,HVC sparse cells,+
+MCU,HVC,+
+MED21,Cb gcl sparse,+
+MGAT4C,M,+
+MGAT4C,St,+
+MGAT4C,n5p,+
+MGAT4C,Aven,+
+MGAT4C,UnkThalamus,+
+MGAT4C,Ipc,+
+MGP,Blood Vessels,+
+MGP,UnkTegmentum,+
+MGP,VTA,+
+MGP,UnkSubpallium,+
+MGP,APH,+
+MGP,UnkThalamus,+
+MGP,UnkThalamus,+
+MGP,LoC,+
+MGP,SN,+
+MGP,SL,+
+MGP,HbM,+
+MGP,UnkMedulla,+
+MGP,DR,+
+MGP,UnkPons,+
+MGST3,Cb pcl,+
+MGST3,Cb dn,+
+MGST3,DLMco,+
+MGST3,LMAN,+
+MGST3,St sparse cells,+
+MGST3,HVC,+
+MGST3,Nif,+
+MGST3,SGC,+
+MGST3,GP,+
+MGST3,Rt,+
+MPPED2,SpM,+
+MPPED2,X,+
+MPZL1,White Matter,+
+MPZL1,L2a,+
+MPZL1,X sparse cells,+
+MPZL1,LMAN,+
+MPZL1,HVC,+
+MPZL1,RA,+
+MPZL1,RA sparse cells,+
+MPZL1,HVC sparse cells,+
+MPZL1,LMAN sparse cells,+
+MPZL1,GP,+
+MPZL1,Bas sparse cells,+
+MPZL1,Bas,+
+MPZL1,E,+
+MST4,Rt,+
+MT3,HPdc,+
+MT3,DLM,+
+MT3,Ov,+
+MT3,VP,+
+MT3,LMANcosh,+
+MT3,Cb pcl,+
+MT3,L2a,+
+MT3,Ipc,+
+MT3,DM,+
+MT3,Pt,+
+MT3,GP,+
+MT3,RA,+
+MT3,HVC,+
+MTHFD2L,M,+
+NCALD,SpM,+
+NCALD,Pal,+
+NCALD,DR,+
+NCALD,ICo,+
+NCALD,UnkThalamus,+
+NCALD,HVC sparse cells,+
+NCAM1,Cb mcl,+
+NCAM1,Cb pcl,+
+NDRG1,White Matter,+
+NDRG1,HVC,+
+NDRG4,X,+
+NDRG4,X sparse cells,+
+NDRG4,St sparse cells,+
+NDRG4,SpM,+
+NDRG4,MLd,+
+NDRG4,HVC,+
+NDRG4,GP,+
+NDRG4,Rt,+
+NDRG4,EM,+
+NDRG4,Ovcosh,+
+NECAB2,Mdm,+
+NECAB2,SN,+
+NECAB2,UnkThalamus,+
+NECAB2,UnkThalamus,+
+NECAB2,Cb gcl sparse,+
+NECAB2,UnkThalamus,+
+NECAB2,HP,+
+NECAB2,VTA,+
+NECAB2,UnkThalamus,+
+NECAB2,GLv,+
+NECAB2,UnkThalamus,+
+NECAB2,UnkPons,+
+NECAB2,Cb dn,+
+NECAB2,St,+
+NECAB2,Ovco,+
+NECAB2,UnkTectum,+
+NECAB2,IPo,+
+NECAB2,UnkThalamus,+
+NECAB2,n5p,+
+NECAB2,FRL,+
+NECAB2,Ac,+
+NECAB2,Periventricular region,+
+NECAB2,Aven,+
+NECAB2,UnkThalamus,+
+NECAB2,DLA,+
+NECAB2,Rt,+
+NECTIN3,DG,+
+NEFL,Ret,+
+NEFL,X sparse cells,+
+NEFL,X,+
+NEFL,RA,+
+NEFL,Nif,+
+NEFL,LMANco,+
+NEFL,SpM,+
+NEFL,IsO,+
+NEFL,UnkHypothalamus,+
+NEFL,HPdc,+
+NEFL,DLMco,+
+NEFL,Ovco,+
+NEFL,GP,+
+NEFL,CDLco,+
+NEFL,SpL,+
+NEFL,HVC,+
+NEFL,DLA,+
+NEFL,MMAN,+
+NEFL,HbM,+
+NEFM,Nif,+
+NEFM,HVC,+
+NEFM,RA,+
+NEFM,LMANcosh,+
+NEFM,n5p,+
+NEFM,H,+
+NEFM,SpM,+
+NEFM,IsO,+
+NEFM,Alat,+
+NEFM,Is,+
+NEFM,UnkPallium,+
+NEFM,GP,+
+NEFM,UnkThalamus,+
+NEFM,DLA,+
+NEFM,Rt,+
+NEFM,SpL,+
+NEFM,La,+
+NEFM,Cb dn,+
+NEFM,Cb pcl,+
+NEFM,Cb mcl,+
+NEFM,MC,+
+NEFM,n7,+
+NEFM,SN,+
+NEFM,HbM,+
+NEFM,St sparse cells,+
+NEFM,MMAN,+
+NEGR1,LoC,+
+NEGR1,UnkThalamus,+
+NEGR1,DG,+
+NEGR1,SL,+
+NEGR1,ALp,+
+NEGR1,SLu,+
+NEGR1,Ipc,+
+NETO1,APH,+
+NETO1,SubG,+
+NETO1,UnkSubpallium,+
+NETO1,DR,+
+NETO1,DMA,+
+NETO1,HbM,+
+NETO1,DG,+
+NETO1,UnkThalamus,+
+NETO1,pHVC,+
+NETO1,Ovsh,+
+NETO1,Ovm,+
+NETO1,EM,+
+NETO1,IsO,+
+NETO1,SpM,+
+NETO1,X sparse cells,+
+NETO1,St,+
+NETO1,M,+
+NETO1,LMmc,+
+NETO1,Aven,+
+NETO1,HVC,+
+NETO1,Ad,+
+NETO1,Ac,+
+NEUROD6,NCM,+
+NEUROD6,M,+
+NEUROD6,UnkPallium,+
+NMB,UnkPons,+
+NMU,HVC sparse cells,+
+NOS1,DG,+
+NOS1,DR,+
+NOS1,UnkHypothalamus,+
+NOS1,SN,+
+NOS1,NCM sparse cells,+
+NOS1,NCM,+
+NOS1,St sparse cells,+
+NOS1,UnkThalamus,+
+NOS1,UnkTectum,+
+NOS1,UnkThalamus,+
+NOS1,UnkPons,+
+NOS1,UnkTectum,+
+NOS1,Pt,+
+NPY2R,HVC,+
+NPY5R,UnkThalamus,+
+NPY5R,M,+
+NPY5R,SPc,+
+NR0B1,Field L,+
+NR0B1,L2b,+
+NR0B1,UnkPallium,+
+NR0B1,UnkPallium,+
+NR0B1,SpL,+
+NR0B1,UnkPallium,+
+NR0B1,HVC,+
+NREP,UnkThalamus,+
+NREP,Pal sparse cells,+
+NREP,Cb mcl,+
+NREP,APHv,+
+NREP,UnkPons,+
+NREP,UnkPons,+
+NREP,UnkThalamus,+
+NREP,SN,+
+NREP,IsO,+
+NREP,UnkPons,+
+NREP,UnkThalamus,+
+NREP,SpM,+
+NREP,V,+
+NREP,Pt,+
+NREP,HVC sparse cells,+
+NREP,HVC,+
+NRXN1,DG,+
+NRXN1,Pal,+
+NRXN1,SRt,+
+NRXN1,Ipc,+
+NRXN1,SpL,+
+NT5DC1,n5m,+
+NT5DC1,n3d,+
+NT5DC1,n3v,+
+NT5DC1,n4,+
+NT5DC1,DR,+
+NT5DC1,Cb dn,+
+NT5DC1,Cb pcl,+
+NT5DC1,UnkThalamus,+
+NT5DC1,Ovcosh,+
+NT5DC1,HVC sparse cells,+
+NT5DC1,HVC,+
+NT5DC1,LMANco,+
+NT5DC1,SpL,+
+NTS,HVC,+
+NTS,LLD,+
+NTS,n5p,+
+NTS,IsO,+
+NTS,UnkThalamus,+
+NTS,LoC,+
+NTS,UnkHypothalamus,+
+NTS,UnkThalamus,+
+NTS,UnkHypothalamus,+
+NTS,L2a,+
+NTS,DLMcosh,+
+NTS,VP,+
+NTS,St,+
+NTS,UnkPallium,+
+NTS,UnkTectum,+
+NTS,UnkThalamus,+
+NTS,Aros,+
+NTS,Ac,+
+NTS,UnkTectum,+
+NTS,LMANco,+
+NTS,UnkThalamus,+
+NTS,SM,+
+NTS,Tu,+
+NTS,DG,+
+NTS,PVN,+
+ORAI2,M,+
+ORAI2,Ac,+
+ORAI2,HF,+
+ORAI2,Cb pcl,+
+OTX2,GLv,+
+OTX2,UnkThalamus,+
+OTX2,ChP,+
+P2RY1,M,+
+P2RY8,HVC,+
+P4HA2,UnkPallium,+
+P4HA2,A,+
+PAK6,Telencephalon,+
+PAK6,SPc,+
+PATJ,n4,+
+PATJ,n3d,+
+PATJ,n3v,+
+PATJ,X sparse cells,+
+PATJ,UnkThalamus,+
+PATJ,UnkPons,+
+PATJ,Nif,+
+PATJ,Bas,+
+PATJ,Imc,+
+PATJ,GP,+
+PATJ,HVC,+
+PDHA1,Ru,+
+PDHA1,Cb dn,+
+PDHA1,DG,+
+PDHA1,Cb pcl,+
+PDHA1,UnkThalamus,+
+PDHA1,Ovcosh,+
+PDHA1,n7,+
+PDHA1,n5m,+
+PDHA1,SpM,+
+PDHA1,SN,+
+PDHA1,UnkHypothalamus,+
+PDHA1,UnkHypothalamus,+
+PDHA1,DLMco,+
+PDHA1,St sparse cells,+
+PDHA1,n5p,+
+PDHA1,LMANcosh,+
+PDHA1,Rt,+
+PDHA1,SPt,+
+PDHA1,UnkThalamus,+
+PDHA1,MLd,+
+PDHA1,GP,+
+PDHA1,HVC,+
+PDHA1,Imc,+
+PDHA1,DLP,+
+PDHA1,DM,+
+PDHA1,DLA,+
+PDHA1,SpL,+
+PENK,cNCM,+
+PENK,SpL,+
+PENK,LSt,+
+PENK,MLd,+
+PENK,CSt,+
+PENK,Pt,+
+PFKFB2,DLMco,+
+PFKFB2,Ovco,+
+PFKFB2,LMAN,+
+PFKFB2,HVC,+
+PFKFB2,GP,+
+PLD1,Pal,+
+PLD1,Ac,+
+PLPP4,SPc,+
+PLPP4,UnkThalamus,+
+PLPP4,Rt,+
+PLPP4,LMANco,+
+PLPP4,Nif,+
+PLPP4,CSt,+
+PLPP4,VP,+
+PLPP4,DLMsh,+
+PLPP4,SGC,+
+PLPP4,LSt,+
+PLPP4,LMpc,+
+PLPP4,Aros,+
+PLPP4,IPo,+
+PLPP4,UnkThalamus,+
+PLPP4,VMH,+
+PLPP4,UnkPallium,+
+PLPP4,UnkThalamus,+
+PLPP4,St sparse cells,+
+PLPP4,DG,+
+PLPP4,Cb pcl,+
+PLS3,UnkPallium,+
+PLS3,Pal sparse cells,+
+PLS3,DMA,+
+PLS3,VTA,+
+PLS3,Cb pcl,+
+PLS3,UnkThalamus,+
+PLS3,DLMco,+
+PLS3,MC,+
+PLS3,UnkThalamus,+
+PLS3,Imc,+
+PLS3,MLd,+
+PLS3,RA sparse cells,+
+PLS3,RA,+
+PLS3,n5p,+
+PLS3,SpL,+
+PLS3,SPt,+
+PLS3,HVC,+
+PLS3,HVC sparse cells,+
+PLXNA1,UnkThalamus,+
+PLXNA1,M,+
+PLXNA1,SN,+
+PLXNA1,Pt,+
+PLXNA4,A,+
+PLXNA4,RA,+
+PLXNA4,DM,+
+PLXNC1,SRt,+
+PLXNC1,DM,+
+PLXNC1,UnkSubpallium,+
+PLXND1,DLM,+
+PLXND1,Cb gcl,+
+PLXND1,DLA,+
+PMEPA1,HP,+
+PMEPA1,DG,+
+PNLDC1,X,+
+PNLDC1,CSt,+
+PNLDC1,LSt,+
+POMC,SpL,+
+POMC,Arc,+
+POMGNT2,N,+
+POMGNT2,Cb gcl,+
+POMGNT2,MC,+
+POMGNT2,St sparse cells,+
+PPM1E,X sparse cells,+
+PPM1E,X,+
+PPM1E,HVC,+
+PPM1E,M,+
+PPM1E,Ovco,+
+PPM1E,MLd,+
+PPM1E,GP,+
+PPM1E,Cb pcl,+
+PPM1E,n4,+
+PPP1R14C,Cb pcl,+
+PPP1R14C,Pal,+
+PPP1R14C,Bas,+
+PPP3CB,Cb pcl,+
+PPP4R2,Cb pcl,+
+PPP4R2,St sparse cells,+
+PPP4R2,Pal,+
+PPP4R2,LoC,+
+PPP4R2,GP,+
+PRKACB,Pal,+
+PRKAG2,n3d,+
+PRKAG2,n3v,+
+PRKAG2,UnkMedulla,+
+PRKAG2,cNCM,+
+PRKAG2,HF,+
+PRKAG2,MC,+
+PRKAG2,UnkThalamus,+
+PRKAG2,UnkThalamus,+
+PRKAG2,M,+
+PRKAG2,SpL,+
+PRKAG2,HVC,+
+PRKAG2,UnkTectum,+
+PRKAR1B,UnkThalamus,+
+PRKAR1B,DR,+
+PRKAR1B,UnkSubpallium,+
+PRKAR1B,Pal,+
+PRKAR1B,SubG,+
+PRKAR1B,InP,+
+PRKAR1B,Pt,+
+PRKAR1B,LLD,+
+UNKNOWN070,DLMco,+
+UNKNOWN070,Ovco,+
+UNKNOWN070,DLA,+
+PRKCZ,Cb pcl,+
+PTPRR,DG,+
+PTPRR,DR,+
+PTPRR,UnkThalamus,+
+PTPRU,St sparse cells,+
+PTPRU,Field L,+
+PTPRU,UnkThalamus,+
+PTPRU,DR,+
+PTPRU,n3d,+
+PTPRU,Cb gcl dense,+
+PTPRU,Cb gcl ,+
+PTPRU,UnkPallium,+
+PTPRU,UnkThalamus,+
+PTPRU,Ovco,+
+PTPRU,Ovm,+
+PTPRU,N,+
+PTPRU,n7,+
+PTPRU,LMANcosh,+
+PTPRU,Periventricular region,+
+PTPRU,Ad,+
+PTPRU,Alat,+
+PTPRU,Esh,+
+PTPRU,GP,+
+PTPRU,ICo,+
+PTPRZ1,HbM,+
+PTTG1,UnkSubpallium,+
+PVALB,Ru,+
+PVALB,SM,+
+PVALB,St sparse cells,+
+PVALB,Pal sparse cells,+
+PVALB,MC,+
+PVALB,Cb mcl,+
+PVALB,Cb pcl,+
+PVALB,Uva,+
+PVALB,UnkThalamus,+
+PVALB,Ovco,+
+PVALB,DLMco,+
+PVALB,Tu,+
+PVALB,L2a sparse cells,+
+PVALB,DLA,+
+PVALB,UnkThalamus,+
+PVALB,LMANco,+
+PVALB,Ret,+
+PVALB,UnkThalamus,+
+PVALB,UnkThalamus,+
+PVALB,UnkThalamus,+
+PVALB,SpL,+
+PVALB,SPt,+
+PVALB,Rt,+
+PVALB,UnkPallium,+
+PVALB,Nif,+
+PVALB,Alat,+
+PVALB,Eco,+
+PVALB,GP,+
+PVALB,MLd,+
+PVALB,Imc,+
+PVALB,HVC,+
+PVALB,RA,+
+QSOX1,HbL,+
+QSOX1,St sparse cells,+
+QSOX1,L2a sparse cells,+
+QSOX1,Cb dn,+
+QSOX1,n7,+
+QSOX1,DLMco,+
+QSOX1,Ovcosh,+
+QSOX1,X sparse cells,+
+QSOX1,X,+
+QSOX1,Bas sparse cells,+
+QSOX1,UnkSubpallium,+
+QSOX1,E,+
+QSOX1,RA,+
+QSOX1,HVC sparse cells,+
+QSOX1,HVC,+
+QSOX1,Rt,+
+QSOX1,LMANco,+
+QSOX1,Alat,+
+QSOX1,MLd,+
+QSOX1,Imc,+
+QSOX1,GP,+
+RAD54L2,Cb pcl,+
+RCAN2,DR,+
+RCAN2,n4,+
+RCAN2,Cb mcl,+
+RCAN2,Cb pcl,+
+RCAN2,MC,+
+RCAN2,Hb,+
+RCAN2,UnkHypothalamus,+
+RCAN2,E sparse cells,+
+RCAN2,Imc,+
+RCAN2,GP,+
+RCAN2,MLd,+
+RCAN2,LMANco,+
+RCAN2,SpL,+
+RCAN2,RA,+
+RCAN2,HVC,+
+RELN,UnkSubpallium,+
+RELN,UnkHypothalamus,+
+RELN,UnkHypothalamus,+
+RELN,UnkSubpallium,+
+RELN,Pal sparse cells,+
+RELN,Cb gcl,+
+RELN,DR,+
+RELN,UnkSubpallium,+
+RELN,UnkHypothalamus,+
+RELN,hbm,+
+RELN,St sparse cells,+
+RELN,SM,+
+RELN,LoC,+
+RELN,UnkThalamus,+
+RELN,Ovsh,+
+RELN,UnkThalamus,+
+RELN,GLv,+
+RELN,UnkPons,+
+RELN,UnkThalamus,+
+RELN,DM,+
+RFTN1,Aven,+
+RFTN1,Ac,+
+RGS12,X,+
+RGS12,CSt,+
+RGS12,St,+
+RGS12,Aros,+
+RGS12,Telencephalon,+
+RGS4,HVC,+
+RGS4,RA,+
+RGS4,X,+
+RGS4,St,+
+RGS4,Cb dn,+
+RGS4,Cb pcl,+
+RHOB,HVC,+
+RHOB,RA,+
+RHOB,LMANco,+
+RHOB,Rt,+
+RHOB,X,+
+RHOB,Aros,+
+RHOB,S,+
+RHOB,White Matter,+
+RIMS4,SpL,+
+RIMS4,Eco,+
+RIMS4,Bas,+
+RIMS4,ICo,+
+RIMS4,Pt,+
+RNF157,LMANco,+
+RNF157,Tu,+
+RNF157,UnkThalamus,+
+RNF157,L2b,+
+RNF157,L2a,+
+RNF157,MC,+
+RNF157,Cb pcl,+
+RNF157,DLMcosh,+
+RNF157,St sparse cells,+
+RNF157,Ovco,+
+RNF157,E,+
+RNF157,HVC,+
+RNF157,DLA,+
+RNF157,Ipc,+
+RNF157,SpL,+
+RNF157,Bas,+
+RNF157,GP,+
+ROBO1,n3d,+
+ROBO1,Hb,+
+ROBO1,DMA,+
+ROBO1,n4,+
+ROBO1,Field L,+
+ROBO1,DLM,+
+ROBO1,n7,+
+ROBO1,Ipc,+
+ROBO1,RA,-
+ROBO1,HVC sparse cells,+
+ROBO2,APHd,+
+ROBO2,DMA,+
+ROBO2,Cb pcl,+
+ROBO2,DLM,+
+ROBO2,Ovco,+
+ROBO2,GLv,+
+ROBO2,SpM,+
+ROBO2,SpL,+
+ROBO2,HVC,+
+ROBO2,DLP,+
+RORA,Cb pcl,+
+RORA,L2a,+
+RORA,GLv,+
+RORA,Ovco,+
+RORA,DLM,+
+RORA,Cb mcl,+
+RORA,Rt,+
+RORA,Nif,+
+RORA,SGC,+
+RORA,E,+
+RORA,MLd,+
+RORA,SpL,+
+RPL37,V,+
+RPS16,Cb gcl sparse,+
+RPS23,Ovco,+
+RPS23,DLM,+
+RPS23,V,+
+RSRP1,Cb pcl,+
+RTN4R,Pal,+
+RTN4R,E,+
+RTN4R,Aros,+
+RYR2,CSt,+
+RYR2,X,+
+RYR2,HVC,+
+RYR2,SGC,+
+RYR2,LSt,+
+RYR3,EPD,+
+RYR3,pHVC,+
+RYR3,Cb pcl,+
+RYR3,HVC,+
+RYR3,GP,+
+S100B,White Matter,+
+S100B,n5m,+
+S100B,LMANco,+
+S100B,V,+
+S100B,Nif,+
+S100B,HVC,+
+S100B,GP,+
+SAP30L,Cb pcl,+
+SAP30L,ALp,+
+SAP30L,Ovco,+
+SAP30L,DLMco,+
+SAP30L,RA,+
+SAP30L,LMANco,+
+SAP30L,GP,+
+SAP30L,MLd,+
+SAP30L,DM,+
+SAP30L,HVC,+
+SAP30L,Ipc,+
+SATB2,M,+
+SATB2,Bas,+
+SCN1A,DLMco,+
+SCN1A,Ovco,+
+SCN1A,L2a,+
+SCN1A,MC,+
+SCN1A,Cb pcl,+
+SCN1A,SpM,+
+SCN1A,RA,+
+SCN1A,LMANco,+
+SCN1A,Eco,+
+SCN1A,Bas,+
+SCN1A,Is,+
+SCN1A,SGC,+
+SCN1A,HVC,+
+SCN2A,Pal,+
+SCN2A,ICo,+
+SCN2A,Cb gcl,+
+SCN2A,UnkThalamus,+
+SCN2B,IsO,+
+SCN4B,n3v,+
+SCN4B,Cb gcl,+
+SCN5A,SL,+
+SCN5A,HP,+
+SCN5A,Cb pcl,+
+SCN5A,ALp,+
+SCN5A,n7,+
+SCN8A,Ovco,+
+SCN8A,RA,+
+SCN8A,GP,+
+SCN8A,Imc,+
+SCN8A,Ru,+
+SCN8A,Cb pcl,+
+SCUBE1,CbL,+
+SCUBE1,SpM,+
+SCUBE1,HVC sparse cells,+
+SCUBE1,CDLco,+
+SCUBE1,UnkPallium,+
+SCUBE1,HVC,+
+SCUBE1,PM,+
+SCUBE1,SN,+
+SCUBE1,UnkMedulla,+
+SCUBE1,UnkHypothalamus,+
+SCUBE1,UnkThalamus,+
+SCUBE1,H,+
+SCUBE1,M,+
+SCUBE1,UnkPons,+
+SCUBE1,SM,+
+SCUBE1,pHVC,+
+SCUBE1,VTA,+
+SCUBE1,UnkThalamus,+
+SCUBE1,GP,+
+SCUBE1,DM,+
+SCUBE1,Aros,+
+SCUBE1,UnkThalamus,+
+SCUBE1,RA,+
+SDC1,Pal sparse cells,+
+SDC1,MMAN,+
+SDC1,HVC sparse cells,+
+SDC1,HVC,+
+SEC23B,Cb pcl,+
+SEC23B,Rt,+
+SEMA3E,UnkSubpallium,+
+SEMA3E,MMAN,+
+SEMA3E,UnkSubpallium,+
+SEMA3E,UnkSubpallium,+
+SEMA3E,X,+
+SEMA3E,LMANco,+
+SEMA3E,HVC,+
+SEMA3E,UnkSubpallium,+
+SEMA3E,Ad,+
+SEMA3E,UnkPallium,+
+SEMA3E,UnkPallium,+
+SEPP1L,White Matter,+
+12-Sep,Cb gcl,+
+12-Sep,Pal,+
+6-Sep,UnkMidbrain,+
+SERTM1,APH,+
+SERTM1,LMANco,+
+SERTM1,SGC,+
+SERTM1,OvPG,+
+SFRP2,UnkPons,+
+SFRP2,UnkPons,+
+SFRP2,UnkPons,+
+SFRP2,H,+
+SFRP2,N,+
+SFRP2,UnkHypothalamus,+
+SFRP2,UnkThalamus,+
+SFRP2,UnkPons,+
+SFRP2,UnkPons,+
+SFRP2,UnkTectum,+
+SFRP2,PM,+
+SFRP2,UnkPons,+
+SFRP2,UnkPons,+
+SFRP2,UnkThalamus,+
+SFRP2,UnkThalamus,+
+SFRP2,SLu,+
+SFRP2,ICo,+
+SFRP2,CDL,+
+SH3BP5,VTA,+
+SH3BP5,HF,+
+SH3BP5,St sparse cells,+
+SH3BP5,Ovsh,+
+SH3BP5,SN,+
+SH3BP5,A,+
+SHISAL1,MC,+
+SHISAL1,VTA,+
+SLC12A2,Rt,+
+SLC12A5,SpM,+
+SLC12A5,St sparse cells,+
+SLC12A5,UnkThalamus,+
+SLC12A5,Cb mcl,+
+SLC12A5,GP,+
+SLC12A5,SGC,+
+SLC17A6,Cb dn,+
+SLC17A6,Tu,+
+SLC17A6,M,+
+SLC17A6,UnkThalamus,+
+SLC17A6,UnkThalamus,+
+SLC17A6,Ovcosh,+
+SLC17A6,Pal,+
+SLC17A6,HVC,+
+SLC17A6,UnkThalamus,+
+SLC17A6,LMANco,+
+SLC18A3,VDB,+
+SLC18A3,DR,+
+SLC18A3,UnkTegmentum,+
+SLC18A3,S,+
+SLC18A3,HbL,+
+SLC18A3,n7,+
+SLC18A3,VP,+
+SLC18A3,St sparse cells,+
+SLC18A3,UnkTectum,+
+SLC18A3,UnkTectum,+
+SLC18A3,SLu,+
+SLC18A3,GP,+
+SLC18A3,St,+
+SLC18A3,Ipc,+
+SLC24A2,UnkPons,+
+SLC24A2,DMA,+
+SLC24A2,L2a,+
+SLC24A2,n5p,+
+SLC24A2,UnkPons,+
+SLC24A2,UnkThalamus,+
+SLC24A2,UnkPallium,+
+SLC24A2,Cb pcl,+
+SLC24A2,Cb mcl,+
+SLC24A2,DLMcosh,+
+SLC24A2,Ov,+
+SLC24A2,EM,+
+SLC24A2,UnkThalamus,+
+SLC24A2,SpM,+
+SLC24A2,UnkThalamus,+
+SLC24A2,UnkThalamus,+
+SLC24A2,St sparse cells,+
+SLC24A2,L2b,+
+SLC24A2,LMANco,+
+SLC24A2,Aros,+
+SLC24A2,UnkThalamus,+
+SLC24A2,UnkThalamus,+
+SLC24A2,Rt,+
+SLC24A2,Imc,+
+SLC24A2,Ipc,+
+SLC24A2,DLA,+
+SLC24A2,DLP,+
+SLC24A2,MLd,+
+SLC24A2,HVC sparse cells,+
+SLC24A2,HVC,+
+SLC24A2,RA,+
+SLC24A2,E,+
+SLC24A2,Bas,+
+SLC29A4,UnkHypothalamus,+
+SLC29A4,SON,+
+SLC32A1,St,+
+SLC32A1,Cb mcl,+
+SLC32A1,Cb pcl,+
+SLC32A1,Ret,+
+SLC32A1,MLd,+
+SLC32A1,GP,+
+SLC32A1,Imc,+
+SLC32A1,HVC sparse cells,+
+SLC35C2,HVC,+
+SLC35C2,UnkSubpallium,+
+SLC35C2,CSt,+
+SLC4A4,White Matter,+
+SLC4A4,UnkPallium,+
+SLC4A4,EM,+
+SLC4A4,L2a,+
+SLC4A4,LMANcosh,+
+SLC4A4,X,+
+SLC4A4,E,+
+SLC4A4,Bas,+
+SLC4A4,RA sparse cells,+
+SLC4A4,HVC sparse cells,+
+SLC4A4,RA,+
+SLC4A4,HVC,+
+SLC6A11,Cb pcl,+
+SLC6A11,GP,+
+SLC6A2,VTA,+
+SLC6A2,UnkPons,+
+SLC6A2,SN,+
+SLC6A2,LoC,+
+SLC6A6,SCN,+
+SLC6A6,SpL,+
+SLC6A6,SLu,+
+SLC6A6,X,+
+SLC6A6,St,+
+SLC6A7,UnkThalamus,+
+SLC6A7,Mdm,+
+SLC6A7,Ni,+
+SLC6A7,HF,+
+SLC6A7,NCM,+
+SLC6A7,Ac,+
+SLC7A2,n4,+
+SLC7A2,Cb pcl,+
+SLC8A1,Cb gcl sparse,+
+SLC8A1,St sparse cells,+
+SLC8A1,GLv,+
+SLC8A1,SN,+
+SLC8A1,HVC,+
+SLC8A1,DLA,+
+SLC8B1,V,+
+SLC8B1,Cb pcl,+
+SLC8B1,ChP,+
+SLC9A7,LMANcosh,+
+SLC9A7,X,+
+SLC9A7,HVC,+
+SLIT2,HF,+
+SMS,LMANco,+
+SMS,Ovco,+
+SNCA,LoC,+
+SNCA,Cb gcl,+
+SNCA,UnkHypothalamus,+
+SNCA,DMA,+
+SNCA,UnkThalamus,+
+SNCA,UnkTegmentum,+
+SNCA,DR,+
+SNCA,HbM,+
+SNCA,Telencephalon,+
+SNCA,Telencephalon,+
+SNCA,SN,+
+SNCA,X sparse cells,+
+SNCA,HVC sparse cells,+
+SNCG,SpL,+
+SNCG,IsO,+
+SNCG,IPo,+
+SNCG,SpM,+
+SNCG,Tu,+
+SNCG,DLMco,+
+SNCG,Ipc,+
+SNCG,SGC,+
+SNCG,Pt,+
+SNCG,DLA,+
+SNCG,SPc,+
+SNCG,DMA,+
+SNCG,DR,+
+SNCG,Cb gcl sparse,+
+SNCG,Cb pcl,+
+SNCG,St sparse cells,+
+SNCG,Pal sparse cells,+
+SNCG,UnkPallium,+
+SNORA24,Cb gcl,+
+SNORA24,V,+
+SOX4,SpM,+
+SOX6,St sparse cells,+
+SOX6,LMANco,+
+SOX6,Pal,+
+SOX6,HVC,+
+SOX6,UnkHypothalamus,+
+SOX6,VDB,+
+SOX6,GP,+
+SOX6,UnkTectum,+
+SPARC,V,+
+SPARC,Cb pcl,+
+SPTAN1,HVC,+
+SQSTM1,X,+
+SSR2L2,SN,+
+SSR2L2,SpM,+
+ST8SIA4,HVC,+
+STMN1,DG,+
+STMN1,DMA,+
+STMN1,CbW,+
+STMN1,UnkThalamus,+
+STMN1,Cb gcl dense,+
+STMN1,UnkSubpallium,+
+STMN1,RA sparse cells,+
+STMN3,n5p,+
+STMN3,SpM,+
+STMN3,LMANco,+
+STMN3,HVC,+
+STMN3,Is,+
+STMN3,GP,+
+SV2B,Cb pcl,+
+SV2B,SN,+
+SV2B,UnkThalamus,+
+SV2B,SRt,+
+SV2B,DMA,+
+SV2B,M,+
+SV2B,X,+
+SV2B,IsO,+
+SV2B,DLMco,+
+SV2B,Ovco,+
+SV2B,UnkThalamus,+
+SV2B,Rt,+
+SV2B,UnkThalamus,+
+SV2B,LMANco,+
+SV2B,MLd,+
+SV2B,GP,+
+SV2B,Ipc,+
+SV2B,CDLco,+
+SV2B,HVC sparse cells,+
+SV2B,HVC,+
+SV2B,A,+
+SYBU,UnkMidbrain,+
+SYBU,Cb pcl,+
+SYBU,CM,+
+SYBU,DLA,+
+SYF2,SpL,+
+SYF2,SPt,+
+SYF2,Rt,+
+SYF2,Nif,+
+SYF2,HVC,+
+SYF2,LMANcosh,+
+SYF2,UnkThalamus,+
+SYF2,L2a,+
+SYF2,Tu,+
+SYF2,UnkThalamus,+
+SYF2,X,+
+SYF2,X sparse cells,+
+SYF2,Alat,+
+SYF2,E,+
+SYF2,Imc,+
+SYF2,MLd,+
+SYF2,GP,+
+SYF2,Bas,+
+SYF2,RA,+
+SYF2,HVC sparse cells,+
+SYF2,Ru,+
+SYF2,St sparse cells,+
+SYF2,Pal sparse cells,+
+SYF2,MC,+
+SYF2,Cb mcl,+
+SYF2,Cb pcl,+
+SYF2,SM,+
+SYN2,Pal,+
+SYN2,UnkSubpallium,+
+SYN2,Pal,+
+SYN2,Pt,+
+SYN2,HVC,+
+SYNC,Pt,+
+SYNGR3,SN,+
+SYNGR3,X,+
+SYNGR3,X sparse cells,+
+SYNGR3,UnkThalamus,+
+SYNGR3,Cb pcl,+
+SYNGR3,VTA,+
+SYNGR3,LoC,+
+SYNJ1,Pal,+
+SYNJ1,LoC,+
+SYNJ1,HVC,+
+SYNJ1,Pt,+
+SYNJ1,RA,+
+SYT10,HbL,+
+SYT10,HbM,+
+SYT10,CSt,+
+SYT10,UnkThalamus,+
+SYT10,OvPG,+
+SYT10,MLd,+
+SYT10,M,+
+SYT4,Ru,+
+SYT4,DG,+
+SYT4,Ovsh,+
+SYT4,Cb gcl,+
+SYT4,Periventricular region,+
+SYT4,LLD,+
+SYT4,HVC sparse cells,+
+SYT4,HVC,+
+TAC1,MSt,+
+TAC1,UnkPallium,+
+TAC1,APHd,+
+TAC1,NCM sparse cells,+
+TAC1,Tu,+
+TAC1,Acc,+
+TAC1,SM,+
+TAC1,HbM,+
+TAC1,UnkPallium,+
+TAC1,n5m,+
+TAC1,UnkThalamus,+
+TAC1,X,+
+TAC1,Mvm,+
+TAC1,UnkPallium,+
+TAC1,CDL,+
+TAC1,Field L,+
+TAC1,UnkPallium,+
+TAC1,ICo,+
+TAGLN3,HVC,+
+TAGLN3,IsO,+
+TAOK1,Cb pcl,+
+TBR1,UnkThalamus,+
+TBR1,HVC,+
+TENM1,DM,+
+TENM1,DLA,+
+TENM1,HVC,+
+THRB,Periventricular region,+
+THY1,Cb pcl,+
+THY1,LMANcosh,+
+THY1,SpM,+
+THY1,HVC,+
+TIAM2,HF,+
+TIAM2,MC,+
+TLN2,LoC,+
+TLN2,Pt,+
+TMEM74,HVC,+
+TMEM74,Pt,+
+TMRA,H,+
+TMRA,M,+
+TMRA,RA,+
+TNC,CSt,+
+TNC,Vlat,+
+TNC,UnkTectum,+
+TNFAIP8L3,DR,+
+TNFAIP8L3,Pal,+
+TNFAIP8L3,n7,+
+TNFAIP8L3,SN,+
+TNFAIP8L3,St sparse cells,+
+TNFAIP8L3,Cb gcl sparse,+
+TNFAIP8L3,SpL,+
+TNFAIP8L3,UnkThalamus,+
+TNFAIP8L3,GP,+
+TNFRSF1A,HVC,+
+TPCN1,CM,+
+TPCN1,Cb pcl,+
+TPCN1,SpL,+
+TPH2,DR,+
+TRIB2,Cb pcl,+
+TTC39A,SpM,+
+TTC39A,HVC sparse cells,+
+TTLL7,LoC,+
+TXNDC9,S,+
+TXNDC9,Cb pcl,+
+TXNDC9,CSt,+
+TXNDC9,UnkTectum,+
+TXNDC9,SpL,+
+UCHL1,X sparse cells,+
+UCHL1,LMAN,+
+UCHL1,RA,+
+UGT8,White Matter,+
+UGT8,LMANcosh,+
+UGT8,L2a,+
+UGT8,Pal sparse cells,+
+UGT8,E,+
+UGT8,Aros,+
+UGT8,Nif,+
+UGT8,GP,+
+UGT8,RA sparse cells,+
+UGT8,RA,+
+UGT8,HVC sparse cells,+
+UGT8,HVC,+
+UGT8,Bas,+
+UNC5A,DMAsh,+
+UNC5A,DG,+
+UNC5A,Cb dn,+
+UNC5A,UnkThalamus,+
+UNC5A,UnkThalamus,+
+UNC5A,Pal,+
+UNC5A,Periventricular region,+
+UNC5A,M,+
+UNC5A,LMANco,+
+UNKNOWN004,V,+
+UNKNOWN004,M,+
+UNKNOWN004,HVC,+
+UNKNOWN005,HVC,+
+UNKNOWN005,M,+
+UNKNOWN006,Hb,+
+UNKNOWN006,UnkThalamus,+
+UNKNOWN006,Cb pcl,+
+UNKNOWN006,A,+
+UNKNOWN006,HVC,+
+UNKNOWN006,SGC,+
+UNKNOWN006,Pt,+
+UNKNOWN009,APHv,+
+UNKNOWN009,Cb pcl,+
+UNKNOWN009,UnkThalamus,+
+UNKNOWN009,SpM,+
+UNKNOWN009,Aros,+
+UNKNOWN010,M,+
+UNKNOWN016,M,+
+UNKNOWN016,X,+
+UNKNOWN016,St sparse cells,+
+UNKNOWN016,St sparse cells,+
+UNKNOWN024,MSt,+
+UNKNOWN029,DLM,+
+UNKNOWN029,Ovco,+
+UNKNOWN030,M,+
+UNKNOWN031,M,+
+UNKNOWN040,HVC sparse cells,+
+URB1,Cb gcl,+
+UTS2B,UnkPons,+
+UTS2B,UnkPons,+
+UTS2B,MVe,+
+UTS2B,n3d,+
+UTS2B,n4,+
+UTS2B,n3v,+
+UTS2B,HVC,+
+UXS1,Cb pcl,+
+UXS1,Rt,+
+VIP,UnkSubpallium,+
+VIP,HF,+
+VIP,CSt,+
+VIP,SGC,+
+VIP,LSt,+
+VLDLR,M,+
+VLDLR,HP,+
+VLDLR,Cb pcl,+
+VLDLR,X,+
+VLDLR,DG,+
+WASF1,Ovco,+
+WASF1,Cb mcl,+
+WASF1,HbL,+
+WASF1,Telencephalon,+
+WASF1,M,+
+WDR7,M,+
+WFS1,UnkSubpallium,+
+WFS1,UnkPallium,+
+WFS1,n5m,+
+WFS1,n7,+
+WFS1,SN,+
+WFS1,Acc,+
+WFS1,NCL,+
+WWC1,Cb pcl,+
+WWC1,Telencephalon,+
+WWC1,X,+
+ZBTB20,Vlat,+
+ZBTB20,HF,+
+ZBTB20,St sparse cells,+
+ZBTB20,Cb gcl,+
+ZBTB20,Ipc,+
+ZEB2,HF,+
+ZEB2,UnkHypothalamus,+
+ZEB2,UnkThalamus,+
+ZEB2,SubG,+
+ZEB2,Pal,+
+ZEB2,M,+
+ZEB2,St sparse cells,+
+ZEB2,Aven,+
+ZEB2,HVC,+
+ZEB2,UnkTectum,+
+ZEB2,UnkTectum,+
+ZEB2,Aros,+
+ZEB2,CDLco,+
+ZEB2,SpL,+
+ZMAT4,HbM,+
+ZMAT4,Cb pcl,+
+ZMAT4,SpM,+
+ZMAT4,SGC,+
+ZMAT4,UnkThalamus,+
+ZNF385C,Cb mcl,+
+ZNF385C,Cb pcl,+
+ZNF385C,Ovcosh,+
+ZNF385C,UnkThalamus,+
+ZNF385C,MC,+
+ZNF385C,La,+
+ZNF385C,RA sparse cells,+
+ZNF385C,X,+
+ZNF385C,HVC,+
+ZNF385C,UnkTectum,+
+ZNF385C,E sparse cells,+
+ZNF385C,Eco,+
+ZNF385C,SGC,+
+ZNF385C,GP,+
+CAMKK1,GLv,+
+NEFM,GLv,+
+CALB2,UnkThalamus,+
+SCUBE1,Cb pcl,+
+SLC4A4,Cb pcl,+
+C1QL3,M,+
+AKR1D1,MSt,+
+AKR1D1,SRt,+
+SYNGR3,UnkPallium,+
+GDA,UnkThalamus,+
+TIMP3,pia,+
+TIMP3,ChP,+
+TTC39A,HVC,+
+UNKNOWN005,HD,+
+CASC1-1,V,+
+TBR1,Pal,+
+TBR1,E,+
+TBR1,Bas,+
+UNKNOWN024,X,+
+RORA,L2b,+
+UCHL1,Cb,-
+UCHL1,Cb dn,+
+SEPP1L,Bas,+
+SEPP1L,LMAN,+
+SEPP1L,L2a,+
+SEPP1L,Aros,+
+SEPP1L,HVC,+
+SEPP1L,RA,+
+SEPP1L,X,+
+DCX,V,+
+DCX,M,+
+DCX,St,+
+DCX,Telencephalon,+
+SLIT1,Rt,-
+SLIT1,HbM,+
+SLIT1,DMA,-
+SLIT1,LMAN,-
+SLIT1,RA,-
+SLIT1,HF,+
+SLIT1,M,+
