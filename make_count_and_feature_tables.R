@@ -3,13 +3,15 @@
 # Builds count matrix from RNA-seq reads, and supporting data objects
 # for the publication:
 # Emergence of sex-specific transriptomes in a sexually dimorphic brain nucleus
+#
 # BY Sami Friedrich
 # CREATED 06/01/2021
-# UPDATED 12/08/2021
+# UPDATED 04/21/2022
 
 library(plyr)
 library(dplyr)
 library(readr)
+library(tibble)
 
 working_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(working_dir)
@@ -27,22 +29,19 @@ counts_files <- list.files(path = counts_dir, pattern = "*ReadsPerGene.out.tab$"
 counts_list <- lapply(counts_files, read.table, skip = 4)  # skip first 4 lines (not gene counts)
 cts <- as.data.frame(sapply (counts_list, function(x) x[ , 2 ]) )  # extract counts from second row
 counts_files <- gsub( "_ReadsPerGene[.]out[.]tab", "", counts_files )
-sample_ids <- sapply(counts_files, strsplit, split="_")
-sample_ids <- sapply(sample_ids, "[[", 6)
+basefile <- sapply(strsplit(counts_files, "/"), tail, 1)
+sample_ids <- sapply(strsplit(basefile, "_"), getElement, 2)
 colnames(cts) <- sample_ids  # assign sample IDs to columns
 row.names(cts) <- counts_list[[1]]$V1  # assign gene symbols to rownames
-rm(counts_list, sample_ids)
-# remove "transcript_id" row
+rm(counts_list, basefile, sample_ids)
 rows_to_remove <- c("transcript_id")
-cts <- cts[!(row.names(cts) %in% rows_to_remove), ]
-
+cts <- cts[!(row.names(cts) %in% rows_to_remove), ] # remove "transcript_id" row
 ### Manually annotate select LOC genes to their gene symbols
 manual_annot <- read_delim(file.path("input_files", "manual_annotations.tsv"), "\t")
 row.names(cts) <- plyr::mapvalues(row.names(cts), 
                                from = manual_annot$loc, 
                                to = manual_annot$gene)
-# NOTE - cts variable is saved below after ensuring sample order is consistent with coldata
- 
+
 ############ BUILD COLDATA (SAMPLE INFO) ############
 coldata <- read.csv(file.path("input_files", "sample_info.csv"), row.names = 2)
 coldata <- coldata[,-1]
@@ -56,15 +55,11 @@ all(rownames(coldata) == colnames(cts))
 cts <- cts[, rownames(coldata)]
 all(rownames(coldata) == colnames(cts))
 #save_rds(cts)  # save to file
-
-# add lane numbers to coldata
-coldata$lane <- sub(".*_L00", "", counts_files)
-# convert coldata type to factors
+coldata$lane <- sub(".*_L00", "", counts_files)  # add lane number column
 coldata$sex <- factor(coldata$sex)
 coldata$age <- factor(coldata$age)
 coldata$group <- factor(coldata$group)
 coldata$lane <- factor(coldata$lane)
-# Save an object to a file
 #save_rds(coldata)
 
 ############ BUILD GENE INFO TABLE ############
@@ -112,7 +107,6 @@ write.table(
     sep = "\t",
     quote = FALSE
 )
-
 rm(gene_count_matrix, gene_dict, EntrezGeneID)
 
 ############ BUILD VECTOR SPECIFYING CHROMOSOME ORDER ############

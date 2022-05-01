@@ -1,15 +1,16 @@
 # deseq_analysis.R
 #
-# Differential gene analysis of zebra finch RA using DESeq2 for the publication titled:
+# Differential gene analysis of zebra finch RA using DESeq2 for the publication:
 # Emergence of sex-specific transriptomes in a sexually dimorphic brain nucleus
 # 
 # BY Sami Friedrich
 # CREATED 06/01/2021
-# UPDATED 12/13/2021
+# UPDATED 04/21/2022
 
 options(java.parameters = "-Xmx8000m")
 working_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(working_dir)
+renv::activate(working_dir)  # activate renv virtual environment
 input_path <- "input_files"
 figures_path <- "output_figures"
 dir.create(figures_path)
@@ -33,34 +34,39 @@ ddsi <- DESeq(ddsi)
 rldi <- rlog(ddsi, blind=TRUE)  # transform count data to log2 scale and normalize to library size
 rld_mat <- assay(rldi)  # matrix of log2 abundances after rlog transformation
 rld_tidy <- tidy_rld(rldi)  # tidy df in long format of rlog transformed log2 abundance
-
 # Check distribution of gene dispersions
 plotDispEsts(ddsi)
 
 ##################################################
 # Sample clustering using PCA
 ##################################################
+
 # PCA based on 500 most variant genes
-plotPCA(rldi, intgroup="group", ntop=500)
+plotPCA(rldi, intgroup="group", ntop=500) # plot to get % variance for PC1 and PC2
 data <- plotPCA(rldi, intgroup="group", ntop=500, returnData=TRUE)
 p <- ggplot(data, aes(x=PC1, y=PC2)) +
   geom_point(aes(fill=group), colour="white",pch=21, size=4) +
   scale_fill_manual(values=paired_palette, labels=group_labels) +
   theme_bw() +
-  xlab("PC1: 35% variance") +
-  ylab("PC2: 13% variance") +
+  xlab("PC1: 35% variance") +  # determined from plotPCA
+  ylab("PC2: 13% variance") +  # determined from plotPCA
   labs(fill="Group") +
   theme(strip.background =element_rect(fill="white"),
-        
         axis.title=element_text(size=12),
         axis.text=element_text(size=10),
-        plot.title=element_text(size=12, hjust=0.5)
+        plot.title=element_text(size=12, hjust=0.5),
+        legend.position=c(0.85,0.13),
+        #legend.position='bottom',
+        legend.title = element_blank(),
+        legend.spacing.y = unit(0, "mm"), 
+        legend.background = element_blank(),
+        legend.box.background = element_rect(colour = "black")
   )
 p
 ggsave(file.path(figures_path, "PCA_n500.pdf"),
        plot = p,
        device = "pdf",
-       width = 5.5, height = 4, units = "in")
+       width = 5.5, height = 5.5, units = "in")
 
 # PCA based on all genes
 plotPCA(rldi, intgroup="group", ntop=nrow(rld_mat))  # plot to get % variance for PC1 and PC2
@@ -69,20 +75,24 @@ p <- ggplot(data, aes(x=PC1, y=PC2)) +
   geom_point(aes(fill=group), colour="white",pch=21, size=4) +
   scale_fill_manual(values=paired_palette, labels=group_labels) +
   theme_bw() +
-  xlab("PC1: 26% variance") +
-  ylab("PC2: 14% variance") +
+  xlab("PC1: 26% variance") +  # determined from plotPCA
+  ylab("PC2: 14% variance") +  # determined from plotPCA
   labs(fill="Group") +
   theme(strip.background =element_rect(fill="white"),
-        
         axis.title=element_text(size=12),
         axis.text=element_text(size=10),
-        plot.title=element_text(size=12, hjust=0.5)
+        plot.title=element_text(size=12, hjust=0.5),
+        legend.position=c(0.85,0.13),
+        legend.title = element_blank(),
+        legend.spacing.y = unit(0, "mm"), 
+        legend.background = element_blank(),
+        legend.box.background = element_rect(colour = "black")
   )
 p
 ggsave(file.path(figures_path, "PCA_all-genes.pdf"),
        plot = p,
        device = "pdf",
-       width = 5.5, height = 4, units = "in")
+       width = 5.5, height = 5.5, units = "in")
 
 ##################################################
 # Differential gene expression contrasts
@@ -90,8 +100,8 @@ ggsave(file.path(figures_path, "PCA_all-genes.pdf"),
 ALPHA = 0.01
 LFC_THRESH = NULL
 # Test for differential expression to specified alpha level, option to also test to lfc threshold
-deg <- get_results(padj_thresh=ALPHA, lfc_thresh = LFC_THRESH)
-# Save differential gene expression results to .xlsx
+deg <- get_results(padj_thresh=ALPHA, lfc_thresh=LFC_THRESH)
+SAVE = FALSE
 for (res_name in names(deg$res_desobj)){
   result <- data.frame(deg$res_desobj[[res_name]])
   result <- rownames_to_column(result, var = "gene")
@@ -100,14 +110,15 @@ for (res_name in names(deg$res_desobj)){
   result$description <- lapply(result$description, 
                                FUN = function(x) paste(unlist(x), collapse=" | "))
   result$GeneID <- as.character(result$GeneID)
-  write.xlsx2(result,
+  if (SAVE){
+    write.xlsx2(result,
               file=file.path(tables_path, "Differential_expression_stats.xlsx"),
               append=TRUE,
               sheetName=result_labels[res_name],
               row.names=FALSE,
               col.names=TRUE,
               showNA=FALSE
-  )
+  )}
 }
 # Make a df of l2fc values for all genes with at least one significant contrast
 lfc <- lfc_summary(deg)
@@ -115,6 +126,7 @@ lfc <- lfc_summary(deg)
 ##################################################
 # RNA-Seq validation with RA ZEBrA markers
 ##################################################
+
 zebra <- read_csv(file.path(input_path, "ZEBrA_MarkerTable_070721.csv"))
 zebra_ra <- zebra %>% dplyr::filter(StructureID == "RA")  # filter for RA rows
 zebra_ra$GeneID[zebra_ra$GeneID == "MST4"] <- "STK26"  # rename MST4 to STK26
@@ -148,6 +160,7 @@ sum(marker_genes_table$marker_type == "-" & marker_genes_table$l2fc_M<0)
 ##################################################
 # MA plots
 ##################################################
+
 ### Shrink LFC values for better data viz (removes noise from low count genes)
 shrunk_20 <- lfcShrink(ddsi, contrast=c("group", "F_20", "M_20"), res=deg$res_desobj$res_20, type="ashr")
 shrunk_50 <- lfcShrink(ddsi, contrast=c("group", "F_50", "M_50"), res=deg$res_desobj$res_50, type="ashr")
@@ -169,11 +182,12 @@ maplots <- grid.arrange(grobs=p, left = ylab, bottom = xlab)
 ggsave(file.path(figures_path, "MAplots.pdf"),
        plot = maplots,
        device = "pdf",
-       width = 8, height = 7, units = "in")
+       width = 6, height = 5.5, units = "in")
 
 ##################################################
 # DEG summary stats and subsets
 ##################################################
+
 ### DEG LFC summary stats
 mean(abs(lfc$l2fc_F), na.rm=TRUE)  # mean lfc in female development
 median(abs(lfc$l2fc_F), na.rm=TRUE)  # median lfc in female development
@@ -199,30 +213,65 @@ M_only <- setdiff(deg$sig_df$sig_M$gene, deg$sig_df$sig_F$gene)  # genes that ch
 F_only <- setdiff(deg$sig_df$sig_F$gene, deg$sig_df$sig_M$gene)  # genes that change over age only in F
 
 ##################################################
+# Histograms of M:F LFC for autosomal vs Z genes
+##################################################
+
+p20 <- plot_AvsZ(deg$res_desobj$res_20, 
+                 legend = TRUE,
+                 leg_pos = c(0.80, 0.82))
+p50 <- plot_AvsZ(deg$res_desobj$res_50, 
+                 legend = FALSE)
+p = list(p20,p50) %>% map(~.x + labs(x=NULL, y=NULL)) # remove axis titles from all plots
+xlab <- textGrob(expression('log'[2]*' M:F'),
+                 gp = gpar(fontsize=12))
+ylab <- textGrob("% of genes",
+                 gp = gpar(fontsize=12), rot = 90)
+histplots <- grid.arrange(grobs=p, left = ylab, bottom = xlab, nrow=2)
+ggsave(file.path(figures_path, "MFratiosAvsZ.pdf"),
+       plot = histplots,
+       device = "pdf",
+       width = 3, height = 5, units = "in")
+
+
+##################################################
 # Plotting DEGs by chromosome
 ##################################################
-### Plot % DEGs by chromosome
+
 plots <- list()
 for (name in names(deg$sig_df)[3:4]){
   data <- deg$sig_df[[name]]
-  p <- plot_deg_by_chr(deg_by_chromosome(data))
-  p <- p + ggtitle(table_of_names[table_of_names$sig_name == name, "effect_title"])
-  p <- p + coord_cartesian(ylim = c(0, 50))  # set common y axis
+  plotdata <- deg_by_chromosome(data)
+  plotdata$color <- replicate(dim(plotdata)[1], "black")
+  index <- plotdata$chromosome == "Z"
+  plotdata$color[index] <- "red"
+  p <- plot_deg_by_chr(plotdata)
+  p <- p + ggtitle(element_blank())
+  p <- p + coord_cartesian(ylim = c(0, 40))  # set common y axis
+  p <- p + theme(axis.title=element_text(size=12),
+                axis.text.x=element_text(size=9, angle = 90),
+                plot.margin = unit(c(1,1,1,1), "mm")
+                )
   plots[[name]] <- p
 }
 # Remove axis titles from all plots
 p <- plots %>% map(~.x + labs(x=NULL, y=NULL))
 # Plot together with shared axes labels
-deg_by_chr <- grid.arrange(grobs=p, ncol = 1, nrow = 2, 
-                    left = "% chromosome genes that are DEGs", 
-                    bottom = "Chromosome")
+yleft <- textGrob("% genes that are DEGs", rot = 90, gp = gpar(fontsize = 14))
+xbottom <- textGrob("Chromosome", gp = gpar(fontsize = 14))
+deg_by_chr <- grid.arrange(grobs = p, 
+                           ncol = 1, 
+                           nrow = 2, 
+                           left = yleft, 
+                           bottom = xbottom)
+deg_by_chr
+
 ggsave(file.path(figures_path, "deg_by_chromosome.pdf"),
        plot = deg_by_chr,
        device = "pdf",
-       width = 6.5, height = 4, units = "in")
+       width = 9, height = 5, units = "in")
 
 ###################################################################
-# GO TERM ENRICHMENT TESTS FOR EACH CONTRAST DEG SET
+# GO term enrichment tests for each contrast DEG set
 ###################################################################
 
 ### ORA for DEG sets
@@ -259,21 +308,18 @@ for (res_name in names(gsea_results)){
 ##################################################
 # Cluster analysis of sex+age interaction genes
 ##################################################
+
 ### Hierarchical clustering
 res <- deg$sig_df$sig_interaction
 cluster_rlog <- rld_mat[res$gene, ] # subset rlog matrix for significant genes of particular effect
 cl <- degPatterns(cluster_rlog, metadata = colData(rldi), time="age", col="sex", minc=9)  # perform clustering 
-cl$plot <- degPlotCluster(cl$normalized, "age", "sex", lines = FALSE) +  # customize plot
-  scale_x_discrete(labels=c("20 DPH", "50 DPH")) +
-  guides(fill="none") +
-  scale_color_discrete(name="Sex", labels=c("Female", "Male")) +
-  theme_bw() +
-  theme(strip.background =element_rect(fill="white"))
-cl$plot
+cl$plot_custom <- plot_clusters(cl$plot$data, num_rows = 2, leg_pos = c(0.9, 0.2))
+cl$plot_custom
 ggsave(file.path(figures_path, "sex+age_clusters.pdf"),
-       plot = cl$plot,
+       plot = cl$plot_custom,
        device = "pdf",
-       width = 6, height = 7.5, units = "in")
+       width = 7, height = 4.5, units = "in")
+
 ### ORA of enriched GO terms in clusters
 clusters <- cl$df
 colnames(clusters) <- c("gene", "cluster")
@@ -292,7 +338,10 @@ for (res_name in names(cluster_ora_results)){
   )
 }
 
-############ Z GENE ANALYSES ############
+##################################################
+# Z gene analyses
+##################################################
+
 ### ZW pairs
 lfc_z <- dplyr::filter(lfc, chromosome=="Z")
 wz_pairs <- read_csv(file.path(input_path,"wzpairs.csv"), col_names = FALSE)
@@ -320,17 +369,13 @@ lfc_z <- dplyr::filter(lfc, chromosome=="Z")
 z_genes <- lfc_z$gene[lfc_z$gene %in% rownames(rld_mat)]
 cluster_rlog <- rld_mat[z_genes, ]
 cl_z <- degPatterns(cluster_rlog, metadata = colData(rldi), time="age", col="sex", minc=9)
-cl_z$plot <- degPlotCluster(cl_z$normalized, "age", "sex", lines = FALSE) +
-  scale_x_discrete(labels=c("20 DPH", "50 DPH")) +
-  guides(fill="none") + # clear legend to then apply custom legend below
-  scale_color_discrete(name="Sex", labels=c("Female", "Male")) +
-  theme_bw() +
-  theme(strip.background =element_rect(fill="white"))
-cl_z$plot
+# Custom plotting of clusters
+cl_z$plot_custom <- plot_clusters(cl_z$plot$data, leg_pos = c(0.05, 0.87))
+cl_z$plot_custom
 ggsave(file.path(figures_path, "z_clusters.pdf"),
-       plot = cl_z$plot,
+       plot = cl_z$plot_custom,
        device = "pdf",
-       width = 6, height = 6, units = "in")
+       width = 8.5, height = 3, units = "in")
 
 ### Perform over-representation analysis on each cluster of Z chromosome DEGs
 clusters_z <- cl_z$df
@@ -353,6 +398,7 @@ for (res_name in names(z_cluster_ora_results)){
 ##################################################
 # Gene families of interest analysis
 ##################################################
+
 ### Transcription factors
 # GO term
 go_id <- "GO:0003700" # DNA-binding transcription factor activity
@@ -434,3 +480,47 @@ write.xlsx2(vg_lfc[,1:9],
             col.names=TRUE,
             showNA=FALSE
 )
+
+
+### All transcription factors, including non-DEGs
+# GO term
+go_id <- "GO:0003700" # DNA-binding transcription factor activity
+go_genes <- genesbygo[go_id]
+go_genes <- as.numeric(unlist(go_genes))
+go_genes_symbol <- grch38$symbol[grch38$entrez %in% go_genes]
+index <- row.names(cts) %in% go_genes_symbol
+txf_bygo <- row.names(cts)[index]
+# Term  based
+df <- data.frame(deg$res_desobj$res_50)
+df <- rownames_to_column(df, var = "gene")
+df <- plyr::join(df, gene_info, by="gene")
+df <- df %>% dplyr::select(gene, description)
+txf_byterm <- term_subset(search_string="transcription factor", df=df)$gene
+# Combine
+txf <- unique(append(txf_bygo, txf_byterm))
+txf <- data.frame(txf)
+colnames(txf) <- c("gene")
+txf <- plyr::join(data.frame(txf), dplyr::select(gene_info, gene, GeneID), by="gene")
+txf$GeneID <- as.character(txf$GeneID)
+txf_joined <- plyr::join(txf, lfc, by="gene")
+txf_joined <- txf_joined[-c(8:10)]
+basemeans <- data.frame(rowMeans(counts(ddsi, normalized=TRUE)))
+txf_joined$basemeans <- basemeans[txf_joined$gene,]
+# Save
+write.xlsx(txf_joined, 
+           file=file.path(tables_path, "all-transcription-factors.xlsx"),
+           append=FALSE,
+           sheetName="All transcription factors",
+           row.names=FALSE,
+           col.names=TRUE,
+           showNA=FALSE
+)
+
+##################################################
+# AR abundance (Supp. Figure 5)
+##################################################
+p <- plot_abundance("AR")
+ggsave(file.path(figures_path, "AR-abundance.pdf"),
+       plot = p,
+       device = "pdf",
+       width = 3, height = 4, units = "in")

@@ -4,17 +4,13 @@
 # Companion file to deseq_analysis.R
 # BY Sami Friedrich
 # CREATED 06/01/2021
-# UPDATED 12/08/2021
+# UPDATED 04/21/2022
 
 library(tidyverse)
 library(ggplot2)
 library(DESeq2)
 library(xlsx)
 library(readr)
-#library(pheatmap)
-#library(pcaExplorer)
-#library(ggrepel)
-#library(RColorBrewer)
 library(DEGreport)
 library(grid)
 library(gridExtra)
@@ -90,7 +86,7 @@ gene_subset <- function(df, genelist){
 #
 # Note that DESeq2::results() performs independent filtering by default 
 # using the mean of normalized counts as a filter statistic. Genes
-# that do not pass the filter threshold have 'NA' for their padj.
+# that do not pass the filter threshold will have 'NA' as their padj.
 #
 # The default false discovery rate correction used here is the 
 # Benjamini-Hochberg adjustment.
@@ -232,9 +228,12 @@ tidy_rld <- function(deseq_transform_obj){
 ########## PLOTTING FUNCTIONS ##########
 
 # Plot % of genes on each chromosome that are DEGs
-plot_deg_by_chr <- function(chr_counts){
-    p <- ggplot(chr_counts[1:33,], aes(x=chromosome, y=pct_chr_deg))+
-        geom_col(aes(fill=chromosome)) +
+plot_deg_by_chr <- function(plotdata){
+    p <- ggplot(plotdata[1:33,], aes(x=chromosome, 
+                                     y=pct_chr_deg,
+                                     fill=color)) +
+        geom_col() +
+        scale_fill_manual(values=c("#000000", "#FF0000")) +
         theme_bw() +
         xlab("Chromosome") +
         ylab("") +
@@ -245,7 +244,8 @@ plot_deg_by_chr <- function(chr_counts){
 
 # Custom MA plotting function based on geneplotter::plotMA
 # Uses data return option from DESeq2's plotMA() function
-plot_MA <- function(shrunken_res, plot_title, y_lim=c(-4,4), alpha=ALPHA, tri_size=1){
+plot_MA <- function(shrunken_res, plot_title='', y_lim=c(-4,4), alpha=ALPHA, 
+                    tri_size=1){
     ma_data <- plotMA(shrunken_res,
                       alpha = alpha,
                       returnData=TRUE)
@@ -280,7 +280,7 @@ plot_abundance <- function(genelist, log2_tidy=rld_tidy, num_col=5, no_legend=TR
         labs(color="") +
         facet_wrap(~ gene, ncol=num_col, scales="free_y") + 
         xlab("") +
-        ylab("log2 abundance") +
+        ylab(expression('log'[2]*' abundance')) +
         scale_x_discrete(labels=group_labels) +
         scale_color_manual(values = paired_palette, labels=group_labels) +
         theme_bw() +
@@ -290,6 +290,97 @@ plot_abundance <- function(genelist, log2_tidy=rld_tidy, num_col=5, no_legend=TR
         p <- p + theme(legend.position="none")
     }
     return(p)
+}
+
+# Plot histogram of log2FC M:F for all autosomal versus Z genes
+plot_AvsZ <- function(result, 
+                      title = element_blank(), 
+                      legend = TRUE,
+                      leg_pos = c(0.8, 0.9),
+                      xlimits = c(-5,5),
+                      ylimits=c(0,60))
+  {
+  plotdata <- data.frame(result)
+  plotdata <- rownames_to_column(plotdata, var = "gene")
+  plotdata <- plyr::join(plotdata, gene_info, by="gene")
+  plotdata <- plotdata %>% dplyr::select(gene, log2FoldChange, chromosome)
+  index <- plotdata$chromosome != "Z"
+  plotdata$chromosome[index] <- "A"
+  plotdata <- drop_na(plotdata)
+  print(tapply(plotdata$log2FoldChange, plotdata$chromosome, summary)) #summary stats
+  p <- ggplot(plotdata, aes(x=log2FoldChange, fill=chromosome)) +
+    geom_histogram(aes(y=c(..count..[..group..==1]/sum(..count..[..group..==1]),
+                           ..count..[..group..==2]/sum(..count..[..group..==2]))*100),
+                   position='dodge', binwidth=0.5) +
+    scale_fill_manual(#values = c("#f27d29", "#2b7bc2"),
+                      values = c("#000000", "#FB0505"),
+                      labels = c("Autosome", "Z")) +
+    theme_bw() +
+    ylab("Percentage of genes") +
+    ggtitle(title) +
+    coord_cartesian(xlim = xlimits, ylim=ylimits)
+  if (legend == FALSE){
+   p <- p + theme(legend.title = element_blank(),
+          legend.position = "none")
+  }
+  else {
+    p <- p + theme(legend.text=element_text(size=8),
+                   legend.title = element_blank(),
+                   legend.margin=margin(c(2,3,2,2)),
+                   legend.position = leg_pos,
+                   legend.background = element_blank(),
+                   legend.spacing.y = unit(0, "mm"),
+                   legend.spacing.x = unit(0.5, 'mm'),
+                   legend.box.background = element_rect(colour = "black")
+                   )
+  }
+  return(p)
+}
+
+# Custom clustering plots from degPatterns() results
+plot_clusters <- function(data, num_rows=1, leg_pos="bottom"){
+  new_titles <- gsub("Group: ", "Cluster", as.character(data$title))
+  new_titles <- gsub("- genes: ", "(n=", new_titles)
+  new_titles <- paste0(new_titles, ")")
+  data$title <- new_titles
+  p <- ggplot(data,
+              aes(age, value, color = sex, fill = sex)) +
+    geom_boxplot(alpha = 0,
+                 outlier.size = 0,
+                 outlier.shape = 0) +
+    geom_point(aes(shape=sex),
+               position = position_jitterdodge(dodge.width = 0.9),
+               alpha = 0.4, 
+               size = 1) +
+    # change the method to make it smoother
+    geom_smooth(aes(group=sex), 
+                method = "lm",
+                se = FALSE) +
+    scale_x_discrete(labels=c("20 DPH", "50 DPH")) +
+    guides(fill="none") + # clear legend to then apply custom legend below
+    scale_color_manual(values = c("#f27d29", "#2b7bc2"),
+                       labels = c("Female", "Male")) +
+    scale_shape_manual(values = c(19, 17),
+                       labels = c("Female", "Male")) +
+    guides(color = guide_legend(override.aes = list(linetype = 0, 
+                                                    size=4, 
+                                                    alpha = 0.7))) +
+    facet_wrap(~title,
+               nrow = num_rows) +
+    ylab("Z-score of gene abundance") +
+    xlab(NULL) +
+    theme_bw() +
+    theme(strip.background=element_rect(fill="white"),
+          legend.title = element_blank(),
+          legend.text=element_text(size=8),
+          legend.margin=margin(c(2,3,2,2)),
+          legend.position = leg_pos,
+          legend.background = element_blank(),
+          legend.spacing.y = unit(0, "mm"),
+          legend.spacing.x = unit(0, 'mm'),
+          legend.box.background = element_rect(colour = "black")
+    )
+  return(p)
 }
 
 ########## GO ANALYSIS FUNCTIONS ########## 
