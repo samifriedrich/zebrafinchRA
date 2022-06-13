@@ -1,6 +1,9 @@
 # zebrafinchRA
 R scripts for RNA-seq analysis that assess developmental and sex-biased gene expression in zebra finch RA. Detailed methods and results are reported in [Friedrich et al., 2022](TBD).
 
+[![DOI](https://zenodo.org/badge/438025848.svg)](https://zenodo.org/badge/latestdoi/438025848)
+
+
 ## Getting started
 
 The easiest way to get going is to load dependencies via the `renv` virtual environment included with this project. 
